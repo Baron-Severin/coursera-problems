@@ -16,16 +16,73 @@
         <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumPairwiseProductK.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductK.kt">
+      <file leaf-file-name="FibonacciNumber.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/FibonacciNumber.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastDigitFibonacci.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/LastDigitFibonacci.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#35#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastDigitFibonacciKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/LastDigitFibonacciKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#35#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibonacciNumberTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/FibonacciNumberTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="36" />
+              <folding>
+                <element signature="e#35#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxBlur.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/BoxBlur.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoxBlurKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/BoxBlurKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#35#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +90,8 @@
       <file leaf-file-name="MaximumPairwiseProductTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="240">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#35#100#0" expanded="true" />
               </folding>
@@ -52,6 +109,18 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>arrayOf</find>
+      <find>List</find>
+      <find>listOf</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>listOf</replace>
+      <replace>Array</replace>
+      <replace>arrayOf</replace>
+    </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -76,12 +145,22 @@
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductJ.java" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductK.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/BoxBlurKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/BoxBlurKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/BoxBlur.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/FibonacciNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/FibonacciNumber.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/FibonacciNumberTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/LastDigitFibonacciKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/LastDigitFibonacciKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/LastDigitFibonacci.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1422" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -89,8 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,24 +186,32 @@
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toolbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toolbox" type="462c0819:PsiDirectoryNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="toolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="week1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,15 +227,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithmic.toolbox.week2" />
       <recent name="algorithmic.toolbox.week1" />
       <recent name="week1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="algorithmic.toolbox" />
       <recent name="" />
       <recent name="week1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/unrelated/algorithms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumPairwiseProductTest.maxProduct">
+  <component name="RunManager" selected="JUnit.LastDigitFibonacciKtTest.lastFibonacci">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -181,6 +273,75 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="BoxBlurKtTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week1" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week1.BoxBlurKtTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FibonacciNumberTest.testFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week2" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week2.FibonacciNumberTest" />
+      <option name="METHOD_NAME" value="testFibonacci" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LastDigitFibonacciKtTest.lastFibonacci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week2" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week2.LastDigitFibonacciKtTest" />
+      <option name="METHOD_NAME" value="lastFibonacci" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="MaximumPairwiseProductTest.maxProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
@@ -194,52 +355,6 @@
       <option name="PACKAGE_NAME" value="algorithmic.toolbox.week1" />
       <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week1.MaximumPairwiseProductTest" />
       <option name="METHOD_NAME" value="maxProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SumOfTwoDigitsJTest.junitRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmic.toolbox.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week1" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week1.SumOfTwoDigitsJTest" />
-      <option name="METHOD_NAME" value="junitRuns" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SumOfTwoDigitsJTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmic.toolbox.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week1" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week1.SumOfTwoDigitsJTest" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -289,17 +404,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SumOfTwoDigitsJTest.test" />
-      <item itemvalue="JUnit.SumOfTwoDigitsJTest.junitRuns" />
       <item itemvalue="Application.SumOfTwoDigitsJ" />
       <item itemvalue="JUnit.MaximumPairwiseProductTest.maxProduct" />
+      <item itemvalue="JUnit.BoxBlurKtTest.test" />
+      <item itemvalue="JUnit.FibonacciNumberTest.testFibonacci" />
+      <item itemvalue="JUnit.LastDigitFibonacciKtTest.lastFibonacci" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LastDigitFibonacciKtTest.lastFibonacci" />
+        <item itemvalue="JUnit.FibonacciNumberTest.testFibonacci" />
+        <item itemvalue="JUnit.BoxBlurKtTest.test" />
         <item itemvalue="JUnit.MaximumPairwiseProductTest.maxProduct" />
         <item itemvalue="Application.SumOfTwoDigitsJ" />
-        <item itemvalue="JUnit.SumOfTwoDigitsJTest.junitRuns" />
-        <item itemvalue="JUnit.SumOfTwoDigitsJTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -317,55 +434,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 12h 42m 59s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 49m 07s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 12h 45m 34s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 49m 12s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 12h 45m 40s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 51m 39s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 12h 50m 56s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 52m 33s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 12h 51m 47s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 54m 53s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 13h 18m 06s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 55m 09s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 13h 22m 10s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="BoxBlurKtTest_test - 2018.06.18 at 14h 56m 30s.xml">
+      <configuration name="BoxBlurKtTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 13h 27m 03s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="FibonacciNumberTest_testFibonacci - 2018.06.18 at 18h 47m 35s.xml">
+      <configuration name="FibonacciNumberTest.testFibonacci" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 13h 44m 54s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="FibonacciNumberTest_testFibonacci - 2018.06.18 at 18h 48m 03s.xml">
+      <configuration name="FibonacciNumberTest.testFibonacci" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumPairwiseProductTest_maxProduct - 2018.06.18 at 13h 45m 56s.xml">
-      <configuration name="MaximumPairwiseProductTest.maxProduct" configurationId="JUnit" />
+    <history-entry file="FibonacciNumberTest_testFibonacci - 2018.06.18 at 18h 48m 46s.xml">
+      <configuration name="FibonacciNumberTest.testFibonacci" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="10" y="23" width="1422" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -385,52 +502,59 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>surroundings.sum() / surroundings.size</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>output[0][0] = 5</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>input</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getSurroundingValues(input, 0 to 0)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>trimEdges(output)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getSurroundingValues(input, 1 to 1).sum() / 9</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getSurroundingValues(input, 1 to 1).sum()</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getSurroundingValues(input, 0 to 0).sum() / 4</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getSurroundingValues(input, 0 to 0).sum()</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductJTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/SumOfTwoDigitsJTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -438,19 +562,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="240">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
@@ -462,6 +576,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsJ.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductJTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/SumOfTwoDigitsJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsJ.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductJ.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8224" column="38" selection-start-line="8224" selection-start-column="38" selection-end-line="8224" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/BoxBlurKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="605" column="38" selection-start-line="605" selection-start-column="38" selection-end-line="605" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/BoxBlur.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="1264" column="23" selection-start-line="1264" selection-start-column="23" selection-end-line="1264" selection-end-column="23" />
+          <folding>
+            <element signature="e#49505#49506#0" expanded="true" />
+            <element signature="e#49544#49545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductK.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/FibonacciNumber.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/FibonacciNumberTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="604" column="11" selection-start-line="604" selection-start-column="11" selection-end-line="604" selection-end-column="11" />
+          <folding>
+            <element signature="e#22896#22897#0" expanded="true" />
+            <element signature="e#22925#22926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/LastDigitFibonacci.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#35#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/LastDigitFibonacciKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
