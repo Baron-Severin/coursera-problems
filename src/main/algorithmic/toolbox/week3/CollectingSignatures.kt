@@ -2,13 +2,12 @@ package algorithmic.toolbox.week3
 
 import java.util.*
 
-class TimeSpan(val from: Int, val to: Int) {
-  fun covers(check: Int) = check in from..to
-  fun forEach(action: (Int) -> Unit) {
-    for (i in from..to) {
-      action.invoke(i)
-    }
-  }
+class TimeSpan(val from: Int, val to: Int)
+
+fun List<TimeSpan>.covering(time: Int) : List<TimeSpan> {
+  val list = mutableListOf<TimeSpan>()
+  this.forEach { if (time in it.from..it.to) list += it }
+  return list
 }
 
 fun main(vararg args: String) {
@@ -27,32 +26,21 @@ fun main(vararg args: String) {
 }
 
 fun signatures(times: List<TimeSpan>): List<Int> {
-  val sortedTimes = times.sortedBy { it.from }.toMutableList()
-  val appointments = mutableListOf<Int>()
-  var i = 0
-  while (i < sortedTimes.size) {
-    val time = sortedTimes[i]
-    var overlaps = listOf<TimeSpan>()
-    val potentialOverlaps = mutableListOf<TimeSpan>()
-    var appointment = 0
-    var potentialAppointment = 0
-    time.forEach { hour ->
-      potentialOverlaps.clear()
-      sortedTimes.forEach { timeSpan ->
-        if (timeSpan.covers(hour)) {
-          potentialOverlaps += timeSpan
-          potentialAppointment = hour
-        }
-      }
-      if (potentialOverlaps.size > overlaps.size) {
-        overlaps = potentialOverlaps.toList()
-        appointment = potentialAppointment
+  val sortedTimes = times.sortedBy { it.to }.toMutableList()
+  val times = mutableListOf<Int>()
+  while (sortedTimes.size > 0) {
+    val timeSpan = sortedTimes.first()
+    var time = 0
+    var coveredSpans = listOf<TimeSpan>()
+    for (i in timeSpan.from..timeSpan.to) {
+      val spans = sortedTimes.covering(i)
+      if (spans.size >= coveredSpans.size) {
+        time = i
+        coveredSpans = spans
       }
     }
-    potentialOverlaps.forEach { sortedTimes.remove(it) }
-    appointments += appointment
+    times += time
+    coveredSpans.forEach { sortedTimes.remove(it) }
   }
-
-
-  return appointments
+  return times
 }
