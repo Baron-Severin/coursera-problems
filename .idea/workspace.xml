@@ -12,22 +12,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumValueOfTheLoot.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumValueOfTheLoot.kt">
+      <file leaf-file-name="MaximumAdvertisementRevenue.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaximumValueOfTheLootKtTest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumValueOfTheLootKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="252">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <element signature="e#35#100#0" expanded="true" />
+                <element signature="e#35#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,11 +41,15 @@
       <find>List</find>
       <find>listOf</find>
       <find>junit</find>
+      <find>Int</find>
+      <find>queueOf</find>
     </findStrings>
     <replaceStrings>
       <replace>listOf</replace>
       <replace>Array</replace>
       <replace>arrayOf</replace>
+      <replace>Long</replace>
+      <replace>sortedListOf</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -100,6 +95,9 @@
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumValueOfTheLootKtTest.java" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumValueOfTheLoot.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumValueOfTheLootKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumAdvertisementRevenueKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumAdvertisementRevenueKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt" />
       </list>
     </option>
   </component>
@@ -194,37 +192,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumValueOfTheLootKtTest.sample2">
+  <component name="RunManager" selected="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="LeastCommonMultipleKtTest.leastCommonMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmic.toolbox.week2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week2" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week2.LeastCommonMultipleKtTest" />
-      <option name="METHOD_NAME" value="leastCommonMultiple" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MaximumValueOfTheLootKtTest.round" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumAdvertisementRevenueKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -235,8 +210,54 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumValueOfTheLootKtTest" />
-      <option name="METHOD_NAME" value="round" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumAdvertisementRevenueKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MaximumAdvertisementRevenueKtTest.bigMaxRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumAdvertisementRevenueKtTest" />
+      <option name="METHOD_NAME" value="bigMaxRevenue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumAdvertisementRevenueKtTest" />
+      <option name="METHOD_NAME" value="maxRevenue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -293,29 +314,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MoneyChangeKtTest.moneyChange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmic.toolbox.week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MoneyChangeKtTest" />
-      <option name="METHOD_NAME" value="moneyChange" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -355,19 +353,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LeastCommonMultipleKtTest.leastCommonMultiple" />
-      <item itemvalue="JUnit.MoneyChangeKtTest.moneyChange" />
-      <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.round" />
       <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.sample1" />
       <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.sample2" />
+      <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.maxRevenue" />
+      <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue" />
+      <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue" />
+        <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest" />
+        <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.maxRevenue" />
         <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.sample2" />
         <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.sample1" />
-        <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.round" />
-        <item itemvalue="JUnit.MoneyChangeKtTest.moneyChange" />
-        <item itemvalue="JUnit.LeastCommonMultipleKtTest.leastCommonMultiple" />
       </list>
     </recent_temporary>
   </component>
@@ -385,35 +383,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyChangeKtTest_moneyChange - 2018.06.19 at 11h 45m 43s.xml">
-      <configuration name="MoneyChangeKtTest.moneyChange" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_maxRevenue - 2018.06.19 at 13h 18m 05s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_round - 2018.06.19 at 12h 01m 17s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.round" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_maxRevenue - 2018.06.19 at 13h 18m 52s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_round - 2018.06.19 at 12h 01m 45s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.round" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_maxRevenue - 2018.06.19 at 13h 20m 11s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_round - 2018.06.19 at 12h 03m 14s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.round" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_maxRevenue - 2018.06.19 at 13h 21m 12s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_round - 2018.06.19 at 12h 03m 26s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.round" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_maxRevenue - 2018.06.19 at 13h 21m 43s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_sample1 - 2018.06.19 at 12h 13m 40s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.sample1" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_maxRevenue - 2018.06.19 at 13h 22m 43s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_sample1 - 2018.06.19 at 12h 15m 17s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.sample1" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest - 2018.06.19 at 13h 22m 49s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_sample1 - 2018.06.19 at 12h 15m 22s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.sample1" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_bigMaxRevenue - 2018.06.19 at 13h 23m 57s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.bigMaxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_sample2 - 2018.06.19 at 12h 16m 48s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.sample2" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_bigMaxRevenue - 2018.06.19 at 13h 25m 05s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.bigMaxRevenue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumValueOfTheLootKtTest_sample2 - 2018.06.19 at 12h 17m 23s.xml">
-      <configuration name="MaximumValueOfTheLootKtTest.sample2" configurationId="JUnit" />
+    <history-entry file="MaximumAdvertisementRevenueKtTest_bigMaxRevenue - 2018.06.19 at 13h 26m 01s.xml">
+      <configuration name="MaximumAdvertisementRevenueKtTest.bigMaxRevenue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -428,7 +426,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
@@ -439,7 +437,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972338" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -492,12 +490,23 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="21" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>vals.size</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>recent.remainder(BigInteger.TEN)</expression-string>
         <language-id>kotlin</language-id>
@@ -538,101 +547,9 @@
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>recent.toString()</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/BoxBlurKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#35#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/generated/_ArraysJvm.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="605" column="38" selection-start-line="605" selection-start-column="38" selection-end-line="605" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="1264" column="23" selection-start-line="1264" selection-start-column="23" selection-end-line="1264" selection-end-column="23" />
-          <folding>
-            <element signature="e#49505#49506#0" expanded="true" />
-            <element signature="e#49544#49545#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductK.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/javafx-src.zip!/javafx/util/converter/BigIntegerStringConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="1213" column="35" selection-start-line="1213" selection-start-column="35" selection-end-line="1213" selection-end-column="35" />
-          <folding>
-            <element signature="e#22896#22897#0" expanded="true" />
-            <element signature="e#22925#22926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/GreatestCommonDivisorKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#35#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/GreatestCommonDivisor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/LastDigitFibonacciKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#35#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/LastDigitFibonacci.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -919,6 +836,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="2108" column="40" selection-start-line="2108" selection-start-column="40" selection-end-line="2108" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumValueOfTheLoot.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -928,10 +852,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumValueOfTheLootKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="375" column="52" selection-start-line="375" selection-start-column="52" selection-end-line="375" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="244" column="17" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/SortedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1977">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="471" column="16" selection-start-line="471" selection-start-column="16" selection-end-line="471" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumAdvertisementRevenueKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="216" column="40" selection-start-line="216" selection-start-column="40" selection-end-line="216" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#35#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
