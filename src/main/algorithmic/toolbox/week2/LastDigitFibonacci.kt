@@ -1,25 +1,24 @@
 package algorithmic.toolbox.week2
 
-import java.math.BigInteger
 import java.util.*
 
 fun main(vararg args: String) {
   val scanner = Scanner(System.`in`)
-  val n = scanner.nextLong()
+  val n = scanner.nextInt()
 
   println(lastFibonacci(n))
 }
 
-fun lastFibonacci(n: Long): Int {
-  if (n <= 1) return n.toInt()
+fun lastFibonacci(n: Int): Int {
+  if (n <= 1) return n
 
-  var old = BigInteger.ZERO
-  var recent = BigInteger.ONE
+  var old = 0
+  var recent = 1
 
   for (i in 2..n) {
-    val next = old.plus(recent)
-    old = recent
-    recent = next
+    val next = old + recent
+    old = recent % 10
+    recent = next % 10
   }
-  return recent.toString().last().toString().toInt()
+  return recent
 }
