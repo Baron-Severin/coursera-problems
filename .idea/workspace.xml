@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="" />
+    <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/coursera-problems/algorithmic/toolbox/week3/CollectingSignaturesKtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/coursera-problems/algorithmic/toolbox/week3/CollectingSignaturesKtTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,17 +19,17 @@
       <file leaf-file-name="CollectingSignatures.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/CollectingSignatures.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="76">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumNumberOfPrizes.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MaximumNumberOfPrizes.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -33,8 +37,8 @@
       <file leaf-file-name="MaximumNumberOfPrizesKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#35#100#0" expanded="true" />
               </folding>
@@ -51,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectingSignaturesKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CollectingSignaturesKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
+            <state relative-caret-position="1875">
+              <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
               <folding>
                 <element signature="e#35#100#0" expanded="true" />
               </folding>
@@ -93,6 +97,9 @@
       <replace>sortedListOf</replace>
       <replace>,</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -142,10 +149,10 @@
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/CollectingSignatures.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt" />
       </list>
     </option>
   </component>
@@ -155,6 +162,7 @@
     <option name="width" value="1422" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -247,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectingSignaturesKtTest.signatures">
+  <component name="RunManager" selected="JUnit.MaximumNumberOfPrizesKtTest.temp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -346,7 +354,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaximumValueOfTheLootKtTest.sample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumNumberOfPrizesKtTest.temp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -357,8 +365,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumValueOfTheLootKtTest" />
-      <option name="METHOD_NAME" value="sample2" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumNumberOfPrizesKtTest" />
+      <option name="METHOD_NAME" value="temp" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -408,19 +416,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.sample2" />
       <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.maxRevenue" />
       <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue" />
       <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest" />
       <item itemvalue="JUnit.CollectingSignaturesKtTest.signatures" />
+      <item itemvalue="JUnit.MaximumNumberOfPrizesKtTest.temp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumNumberOfPrizesKtTest.temp" />
         <item itemvalue="JUnit.CollectingSignaturesKtTest.signatures" />
         <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue" />
         <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest" />
         <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.maxRevenue" />
-        <item itemvalue="JUnit.MaximumValueOfTheLootKtTest.sample2" />
       </list>
     </recent_temporary>
   </component>
@@ -438,12 +446,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 21m 03s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 21m 13s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 21m 45s.xml">
       <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
     </history-entry>
@@ -468,10 +470,15 @@
     <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 30m 05s.xml">
       <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 30m 36s.xml">
+      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaximumNumberOfPrizesKtTest_temp - 2018.06.19 at 15h 34m 11s.xml">
+      <configuration name="MaximumNumberOfPrizesKtTest.temp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -482,7 +489,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -912,17 +919,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="1875">
+          <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
           </folding>
@@ -931,18 +931,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/CollectingSignatures.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="76">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="128" column="44" lean-forward="true" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
