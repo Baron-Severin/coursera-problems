@@ -4,18 +4,18 @@ import java.util.*
 
 fun main(vararg args : String) {
   val scanner = Scanner(System.`in`)
-  val a = scanner.nextInt()
-  val b = scanner.nextInt()
+  val a = scanner.nextLong()
+  val b = scanner.nextLong()
 
   println(gcd(a, b))
 }
 
-fun gcd(a: Int, b: Int):Int {
+fun gcd(a: Long, b: Long): Long {
   return gcdInternal(Math.max(a, b), Math.min(a, b))
 }
 
-private fun gcdInternal(a: Int, b: Int):Int {
+private fun gcdInternal(a: Long, b: Long): Long {
   val remainder = a % b
-  if (remainder == 0) return b
+  if (remainder == 0L) return b
   return gcdInternal(b, remainder)
 }
