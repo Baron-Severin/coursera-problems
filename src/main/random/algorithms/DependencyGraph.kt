@@ -4,6 +4,10 @@ import java.util.*
 
 data class InsertRequest(val value: String, val dependencies: List<String>)
 
+private fun List<String>.filterNotEmpty(): List<String> {
+  return this.filter { it.isNotEmpty() }
+}
+
 class DependencyGraph(reqs: List<InsertRequest>) {
 
   private val roots = mutableListOf<Node>()
@@ -43,10 +47,9 @@ class DependencyGraph(reqs: List<InsertRequest>) {
       return list
     }
 
-    fun printAll(): String {
-      val strings = provisions.map { it.printAll() }.joinToString()
-      return listOf(value, strings).joinToString()
-
+    override fun toString(): String {
+      val provisionsString = provisions.map { it.toString() }.filterNotEmpty().joinToString()
+      return listOf(value, provisionsString).filterNotEmpty().joinToString()
     }
   }
 
@@ -77,7 +80,7 @@ class DependencyGraph(reqs: List<InsertRequest>) {
   }
 
   override fun toString(): String {
-    return roots.joinToString { it.printAll() }
+    return roots.joinToString { it.toString() }
   }
 
 }
