@@ -19,7 +19,17 @@ fun main(vararg args: String) {
 }
 
 fun binarySearch(list: List<Int>, requests: List<Int>): List<Int> {
-  return requests.map { bs(list, it) }
+  val memoized = mutableMapOf<Int, Int>()
+  val results = mutableListOf<Int>()
+  requests.forEach {
+    var mem = memoized[it]
+    if (mem == null) {
+      mem = bs(list, it)
+      memoized[it] = mem
+    }
+    results += mem
+  }
+  return results
 }
 
 private fun bs(list: List<Int>, request: Int): Int {

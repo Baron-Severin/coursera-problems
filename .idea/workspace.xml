@@ -26,8 +26,8 @@
       <file leaf-file-name="BinarySearch.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="258">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file leaf-file-name="BinarySearchKtTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#35#100#0" expanded="true" />
               </folding>
@@ -447,27 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 43m 49s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 44m 20s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 44m 38s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 46m 55s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 47m 01s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 47m 33s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 47m 39s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 48m 14s.xml">
       <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
     </history-entry>
@@ -476,6 +455,27 @@
     </history-entry>
     <history-entry file="MajorityElementKtTest_majorityElement - 2018.06.19 at 22h 58m 45s.xml">
       <configuration name="MajorityElementKtTest.majorityElement" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 03m 47s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 04s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 09s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 26s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 30s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 33s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 35s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -492,10 +492,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -987,15 +987,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="258">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
           </folding>
