@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumSalary.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/coursera-problems/algorithmic/toolbox/week3/CollectingSignaturesKtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/coursera-problems/algorithmic/toolbox/week3/CollectingSignaturesKtTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +25,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumNumberOfPrizes.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaximumNumberOfPrizes.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSalary.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumSalary.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSalaryKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#35#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,15 +63,6 @@
               <folding>
                 <element signature="e#35#100#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Collections.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="1490" selection-start-line="1490" selection-end-line="1490" />
             </state>
           </provider>
         </entry>
@@ -153,6 +165,9 @@
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/CollectingSignatures.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumSalary.kt" />
       </list>
     </option>
   </component>
@@ -255,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumNumberOfPrizesKtTest.temp">
+  <component name="RunManager" selected="JUnit.MaximumSalaryKtTest.maxSalary">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -331,29 +346,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaximumAdvertisementRevenueKtTest.maxRevenue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmic.toolbox.week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumAdvertisementRevenueKtTest" />
-      <option name="METHOD_NAME" value="maxRevenue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="MaximumNumberOfPrizesKtTest.temp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
@@ -367,6 +359,29 @@
       <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
       <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumNumberOfPrizesKtTest" />
       <option name="METHOD_NAME" value="temp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MaximumSalaryKtTest.maxSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumSalaryKtTest" />
+      <option name="METHOD_NAME" value="maxSalary" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -416,19 +431,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.maxRevenue" />
       <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue" />
       <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest" />
       <item itemvalue="JUnit.CollectingSignaturesKtTest.signatures" />
       <item itemvalue="JUnit.MaximumNumberOfPrizesKtTest.temp" />
+      <item itemvalue="JUnit.MaximumSalaryKtTest.maxSalary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaximumSalaryKtTest.maxSalary" />
         <item itemvalue="JUnit.MaximumNumberOfPrizesKtTest.temp" />
         <item itemvalue="JUnit.CollectingSignaturesKtTest.signatures" />
         <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.bigMaxRevenue" />
         <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest" />
-        <item itemvalue="JUnit.MaximumAdvertisementRevenueKtTest.maxRevenue" />
       </list>
     </recent_temporary>
   </component>
@@ -446,39 +461,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 21m 45s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 46m 26s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 24m 55s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 48m 07s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 25m 34s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 54m 49s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 26m 55s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 55m 01s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 27m 14s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 55m 21s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 27m 44s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 55m 47s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 29m 45s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 55m 52s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 30m 05s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 56m 44s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectingSignaturesKtTest_signatures - 2018.06.19 at 15h 30m 36s.xml">
-      <configuration name="CollectingSignaturesKtTest.signatures" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 15h 57m 04s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumNumberOfPrizesKtTest_temp - 2018.06.19 at 15h 34m 11s.xml">
-      <configuration name="MaximumNumberOfPrizesKtTest.temp" configurationId="JUnit" />
+    <history-entry file="MaximumSalaryKtTest_maxSalary - 2018.06.19 at 16h 01m 18s.xml">
+      <configuration name="MaximumSalaryKtTest.maxSalary" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,7 +576,7 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -616,15 +632,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/FibonacciNumber.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week2/FibonacciNumberAgainKtTest.kt" />
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week2/FibonacciNumberAgain.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -912,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="1490" selection-start-line="1490" selection-end-line="1490" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
@@ -936,6 +936,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-test.jar!/kotlin/test/AssertionsKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="867" column="53" selection-start-line="867" selection-start-column="53" selection-end-line="867" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -946,10 +967,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumSalary.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
