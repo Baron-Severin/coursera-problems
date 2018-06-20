@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +34,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinarySearchKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#35#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberOfInversions.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberOfInversionsKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
               <folding>
                 <element signature="e#35#100#0" expanded="true" />
               </folding>
@@ -103,9 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductJTest.java" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductTest.java" />
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsJ.java" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/SumOfTwoDigitsK.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductJ.java" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductK.kt" />
@@ -154,6 +174,9 @@
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt" />
+        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt" />
       </list>
     </option>
   </component>
@@ -256,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchKtTest.binarySearch">
+  <component name="RunManager" selected="JUnit.NumberOfInversionsKtTest.numberOfInversions">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -309,29 +332,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MaximumSalaryKtTest.maxSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmic.toolbox.week3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week3" />
-      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week3.MaximumSalaryKtTest" />
-      <option name="METHOD_NAME" value="maxSalary" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="MergeSortKtTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
@@ -345,6 +345,29 @@
       <option name="PACKAGE_NAME" value="random.algorithms" />
       <option name="MAIN_CLASS_NAME" value="random.algorithms.MergeSortKtTest" />
       <option name="METHOD_NAME" value="mergeSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NumberOfInversionsKtTest.numberOfInversions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithmic.toolbox.week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="algorithmic.toolbox.week4" />
+      <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week4.NumberOfInversionsKtTest" />
+      <option name="METHOD_NAME" value="numberOfInversions" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -417,19 +440,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaximumSalaryKtTest.maxSalary" />
       <item itemvalue="JUnit.QuickSorterTest.quickSort" />
       <item itemvalue="JUnit.MergeSortKtTest.mergeSort" />
       <item itemvalue="JUnit.BinarySearchKtTest.binarySearch" />
       <item itemvalue="JUnit.MajorityElementKtTest.majorityElement" />
+      <item itemvalue="JUnit.NumberOfInversionsKtTest.numberOfInversions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberOfInversionsKtTest.numberOfInversions" />
         <item itemvalue="JUnit.BinarySearchKtTest.binarySearch" />
         <item itemvalue="JUnit.MajorityElementKtTest.majorityElement" />
         <item itemvalue="JUnit.MergeSortKtTest.mergeSort" />
         <item itemvalue="JUnit.QuickSorterTest.quickSort" />
-        <item itemvalue="JUnit.MaximumSalaryKtTest.maxSalary" />
       </list>
     </recent_temporary>
   </component>
@@ -447,24 +470,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 48m 14s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 48m 59s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MajorityElementKtTest_majorityElement - 2018.06.19 at 22h 58m 45s.xml">
-      <configuration name="MajorityElementKtTest.majorityElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 03m 47s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 04s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 09s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 26s.xml">
       <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
     </history-entry>
@@ -476,6 +481,24 @@
     </history-entry>
     <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 04m 35s.xml">
       <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 17m 33s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 17m 38s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 17m 40s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 23h 17m 42s.xml">
+      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfInversionsKtTest_numberOfInversions - 2018.06.19 at 23h 30m 42s.xml">
+      <configuration name="NumberOfInversionsKtTest.numberOfInversions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfInversionsKtTest_numberOfInversions - 2018.06.19 at 23h 39m 41s.xml">
+      <configuration name="NumberOfInversionsKtTest.numberOfInversions" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -492,16 +515,16 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972338" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
@@ -568,7 +591,7 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -624,14 +647,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week1/MaximumPairwiseProductJ.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week1/MaximumPairwiseProductTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -941,13 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/MergeSort.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/MergeSortKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -996,6 +1004,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/MergeSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
           </folding>
