@@ -4,9 +4,17 @@ import java.util.*
 
 data class InsertRequest(val value: String, val dependencies: List<String>)
 
-class DependencyGraph {
+class DependencyGraph(reqs: List<InsertRequest>) {
 
-  fun find(value: String): Node? {
+  private val roots = mutableListOf<Node>()
+  private val addQueue : Queue<InsertRequest> = ArrayDeque<InsertRequest>()
+
+  init {
+    reqs.forEach { addQueue += it }
+    processAdds()
+  }
+
+  private fun find(value: String): Node? {
     roots.forEach { it.find(value)?.let { return it } }
     return null
   }
@@ -34,14 +42,12 @@ class DependencyGraph {
       dependencies.forEach { list.addAll(it.getAncestors()) }
       return list
     }
-  }
 
-  private val roots = mutableListOf<Node>()
-  private val addQueue = ArrayDeque<InsertRequest>() as Queue<InsertRequest>
+    fun printAll(): String {
+      val strings = provisions.map { it.printAll() }.joinToString()
+      return listOf(value, strings).joinToString()
 
-  fun addAll(all: List<InsertRequest>) {
-    all.forEach { addQueue += it }
-    processAdds()
+    }
   }
 
   private fun processAdds() {
@@ -68,6 +74,10 @@ class DependencyGraph {
     return dependencies.filter { dep ->
       dependencies.none { each -> each.getAncestors().contains(dep) }
     }
+  }
+
+  override fun toString(): String {
+    return roots.joinToString { it.printAll() }
   }
 
 }
