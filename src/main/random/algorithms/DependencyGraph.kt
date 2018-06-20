@@ -4,10 +4,6 @@ import java.util.*
 
 data class InsertRequest(val value: String, val dependencies: List<String>)
 
-private fun List<String>.filterNotEmpty(): List<String> {
-  return this.filter { it.isNotEmpty() }
-}
-
 class DependencyGraph(reqs: List<InsertRequest>) {
 
   private val roots = mutableListOf<Node>()
@@ -23,7 +19,7 @@ class DependencyGraph(reqs: List<InsertRequest>) {
     return null
   }
 
-  data class Node(private val value: String) {
+  data class Node(val value: String, var printed: Boolean = false) {
     private val provisions = mutableListOf<Node>()
     private val dependencies = mutableListOf<Node>()
 
@@ -47,9 +43,17 @@ class DependencyGraph(reqs: List<InsertRequest>) {
       return list
     }
 
-    override fun toString(): String {
-      val provisionsString = provisions.map { it.toString() }.filterNotEmpty().joinToString()
-      return listOf(value, provisionsString).filterNotEmpty().joinToString()
+    fun ordered(): List<Node> {
+      if (dependencies.any { !it.printed }) return emptyList()
+      val list = mutableListOf(this)
+      printed = true
+      provisions.forEach { list.addAll(it.ordered()) }
+      return list
+    }
+
+    fun clearPrintFlag() {
+      printed = false
+      provisions.forEach { it.clearPrintFlag() }
     }
   }
 
@@ -80,7 +84,8 @@ class DependencyGraph(reqs: List<InsertRequest>) {
   }
 
   override fun toString(): String {
-    return roots.joinToString { it.toString() }
+    roots.forEach { it.clearPrintFlag() }
+    return roots.flatMap { it.ordered() }.joinToString { it.value }
   }
 
 }

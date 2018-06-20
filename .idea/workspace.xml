@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/random/algorithms/DependencyGraph$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/random/algorithms/DependencyGraph$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/random/algorithms/DependencyGraph$toString$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/random/algorithms/DependencyGraph$toString$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/random/algorithms/DependencyGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/random/algorithms/DependencyGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/coursera-problems/random/algorithms/DependencyGraphTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/coursera-problems/random/algorithms/DependencyGraphTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DependencyGraph.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DependencyGraph.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependencyGraphTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DependencyGraphTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#27#90#0" expanded="true" />
               </folding>
@@ -137,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt" />
         <option value="$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt" />
+        <option value="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt" />
       </list>
     </option>
   </component>
@@ -241,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DependencyGraphTest.addAll">
+  <component name="RunManager" selected="JUnit.DependencyGraphTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -262,6 +258,29 @@
       <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week4.BinarySearchKtTest" />
       <option name="METHOD_NAME" value="binarySearch" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DependencyGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="random.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="random.algorithms.DependencyGraphTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -307,29 +326,6 @@
       <option name="PACKAGE_NAME" value="algorithmic.toolbox.week4" />
       <option name="MAIN_CLASS_NAME" value="algorithmic.toolbox.week4.MajorityElementKtTest" />
       <option name="METHOD_NAME" value="majorityElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MergeSortKtTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="random.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="random.algorithms" />
-      <option name="MAIN_CLASS_NAME" value="random.algorithms.MergeSortKtTest" />
-      <option name="METHOD_NAME" value="mergeSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -402,19 +398,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MergeSortKtTest.mergeSort" />
       <item itemvalue="JUnit.BinarySearchKtTest.binarySearch" />
       <item itemvalue="JUnit.MajorityElementKtTest.majorityElement" />
       <item itemvalue="JUnit.NumberOfInversionsKtTest.numberOfInversions" />
       <item itemvalue="JUnit.DependencyGraphTest.addAll" />
+      <item itemvalue="JUnit.DependencyGraphTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DependencyGraphTest" />
         <item itemvalue="JUnit.DependencyGraphTest.addAll" />
         <item itemvalue="JUnit.NumberOfInversionsKtTest.numberOfInversions" />
         <item itemvalue="JUnit.BinarySearchKtTest.binarySearch" />
         <item itemvalue="JUnit.MajorityElementKtTest.majorityElement" />
-        <item itemvalue="JUnit.MergeSortKtTest.mergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -432,34 +428,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 11h 37m 30s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 11h 39m 18s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 11h 40m 50s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 11h 41m 25s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 11h 42m 16s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 01m 05s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 04m 10s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 07m 05s.xml">
-      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 08m 28s.xml">
       <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 08m 33s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 10m 02s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 14m 30s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 19m 33s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 20m 04s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 21m 22s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 21m 45s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 21m 52s.xml">
+      <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyGraphTest_addAll - 2018.06.20 at 12h 22m 48s.xml">
       <configuration name="DependencyGraphTest.addAll" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -532,11 +528,21 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="50" />
+      <option name="time" value="53" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>DependencyGraph(inserts)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listOf(value, strings).joinToString()</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>sortedTimes.covering(10)</expression-string>
         <language-id>kotlin</language-id>
@@ -572,16 +578,6 @@
       </expression>
       <expression>
         <expression-string>recent.remainder(10)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>recent.lowestSetBit</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>recent.toInt()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -947,20 +943,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#27#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="258">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#27#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,31 +1,37 @@
 package random.algorithms
 
 import org.junit.jupiter.api.Test
+import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 internal class DependencyGraphTest {
 
+  val complexGraph = listOf(
+      InsertRequest("A", listOf("C", "D", "I")),
+      InsertRequest("B", listOf("F", "G")),
+      InsertRequest("C", listOf("E", "I")),
+      InsertRequest("D", listOf("E")),
+      InsertRequest("E", listOf("I")),
+      InsertRequest("F", listOf("G", "H")),
+      InsertRequest("G", listOf("I")),
+      InsertRequest("H", listOf()),
+      InsertRequest("I", listOf())
+  )
+
   @Test
   fun addAll() {
-    var inserts = listOf(InsertRequest("A", listOf("B", "C")), InsertRequest("B", listOf("C")), InsertRequest("C", listOf()))
-    DependencyGraph(inserts).toString().expect(
+    val simpleGraph = listOf(
+        InsertRequest("A", listOf("B", "C")),
+        InsertRequest("B", listOf("C")),
+        InsertRequest("C", listOf())
+    )
+    DependencyGraph(simpleGraph).toString().expect(
         'C' before listOf('B', 'A'),
         'B' before 'A'
     )
 
-    inserts = listOf(
-        InsertRequest("A", listOf("C", "D", "I")),
-        InsertRequest("B", listOf("F", "G")),
-        InsertRequest("C", listOf("E", "I")),
-        InsertRequest("D", listOf("E")),
-        InsertRequest("E", listOf("I")),
-        InsertRequest("F", listOf("G", "H")),
-        InsertRequest("G", listOf("I")),
-        InsertRequest("H", listOf()),
-        InsertRequest("I", listOf())
-    )
-    DependencyGraph(inserts).toString().expect(
-        'I' before listOf('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'),
+    DependencyGraph(complexGraph).toString().expect(
+        'I' before listOf('A', 'B', 'C', 'D', 'E', 'F', 'G'),
         'H' before listOf('F', 'B'),
         'G' before listOf('F', 'B'),
         'F' before 'B',
@@ -33,6 +39,13 @@ internal class DependencyGraphTest {
         'C' before 'A',
         'D' before 'A'
     )
+  }
+
+  @Test fun `graph printed repeatedly will be identical`() {
+    val graph = DependencyGraph(complexGraph)
+    val str1 = graph.toString()
+    val str2 = graph.toString()
+    assertEquals(str1, str2)
   }
 
   data class BeforeAfter(val before: Char, val after: List<Char>)
