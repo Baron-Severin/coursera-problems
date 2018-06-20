@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +17,34 @@
       <file leaf-file-name="MajorityElement.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MajorityElementKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearch.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinarySearchKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#35#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MajorityElementKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -131,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/main/random/algorithms/QuickSort.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt" />
+        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" />
       </list>
     </option>
   </component>
@@ -237,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MajorityElementKtTest.majorityElement">
+  <component name="RunManager" selected="JUnit.BinarySearchKtTest.binarySearch">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -406,8 +425,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MajorityElementKtTest.majorityElement" />
         <item itemvalue="JUnit.BinarySearchKtTest.binarySearch" />
+        <item itemvalue="JUnit.MajorityElementKtTest.majorityElement" />
         <item itemvalue="JUnit.MergeSortKtTest.mergeSort" />
         <item itemvalue="JUnit.QuickSorterTest.quickSort" />
         <item itemvalue="JUnit.MaximumSalaryKtTest.maxSalary" />
@@ -428,9 +447,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 43m 06s.xml">
-      <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 43m 49s.xml">
       <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
     </history-entry>
@@ -458,6 +474,9 @@
     <history-entry file="BinarySearchKtTest_binarySearch - 2018.06.19 at 22h 48m 59s.xml">
       <configuration name="BinarySearchKtTest.binarySearch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MajorityElementKtTest_majorityElement - 2018.06.19 at 22h 58m 45s.xml">
+      <configuration name="MajorityElementKtTest.majorityElement" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -473,10 +492,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -881,13 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/QuickSort.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -916,16 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#35#100#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,17 +968,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#35#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#35#100#0" expanded="true" />
           </folding>

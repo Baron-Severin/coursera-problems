@@ -22,13 +22,14 @@ fun binarySearch(list: List<Int>, requests: List<Int>): List<Int> {
   return requests.map { bs(list, it) }
 }
 
-private fun bs(list: List<Int>, request: Int, left: Int = 0, right: Int = list.size - 1): Int {
-  val mid = ((right - left) / 2) + left
-  return when {
-    list[mid] == request -> mid
-    right <= left -> return -1
-    list[mid] < request -> bs(list = list, request = request, left = mid + 1, right = right)
-    list[mid] > request -> bs(list = list, request = request, left = left, right = mid - 1)
-    else -> throw RuntimeException()
+private fun bs(list: List<Int>, request: Int): Int {
+  var left = 0
+  var right = list.size - 1
+  while (true) {
+    val mid = ((right - left) / 2) + left
+    if (list[mid] == request) return mid
+    if (right <= left) return -1
+    if (list[mid] < request) left = mid + 1
+    else right = mid - 1
   }
 }
