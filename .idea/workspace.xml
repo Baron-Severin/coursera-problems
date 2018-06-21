@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,38 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8-StringToInteger.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt">
+      <file leaf-file-name="10-RegularExpressionMatching.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="749">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="9-PalindromeNumber.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/9-PalindromeNumber.kt">
+      <file leaf-file-name="_Collections.kt" pinned="false" current-in-tab="false">
+        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="161">
+              <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11-ContainerWithMostWater.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt">
+      <file leaf-file-name="_10_RegularExpressionMatchingKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_11_ContainerWithMostWaterKtTest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="288">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -55,23 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ranges.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Ranges.kt">
+      <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_8_StringToIntegerKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="e#23#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="56">
+              <caret line="175" selection-start-line="175" selection-end-line="175" />
             </state>
           </provider>
         </entry>
@@ -128,9 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumValueOfTheLootKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumAdvertisementRevenueKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumAdvertisementRevenueKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.java" />
@@ -176,9 +152,12 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day1/9-PalindromeNumber.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt" />
       </list>
     </option>
   </component>
@@ -285,14 +264,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._11_ContainerWithMostWaterKtTest.maxArea">
+  <component name="RunManager" selected="JUnit._10_RegularExpressionMatchingKtTest.eight">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="_11_ContainerWithMostWaterKtTest.maxArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_10_RegularExpressionMatchingKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -303,30 +282,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day1._11_ContainerWithMostWaterKtTest" />
-      <option name="METHOD_NAME" value="maxArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_8_StringToIntegerKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day1._8_StringToIntegerKtTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -338,7 +294,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="_8_StringToIntegerKtTest.fourteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_10_RegularExpressionMatchingKtTest.eight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -349,8 +305,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day1._8_StringToIntegerKtTest" />
-      <option name="METHOD_NAME" value="fourteen" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
+      <option name="METHOD_NAME" value="eight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -361,7 +317,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="_8_StringToIntegerKtTest.thirteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_10_RegularExpressionMatchingKtTest.four" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -372,8 +328,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day1._8_StringToIntegerKtTest" />
-      <option name="METHOD_NAME" value="thirteen" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
+      <option name="METHOD_NAME" value="four" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -384,7 +340,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="_8_StringToIntegerKtTest.twelve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_10_RegularExpressionMatchingKtTest.seven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -395,8 +351,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day1._8_StringToIntegerKtTest" />
-      <option name="METHOD_NAME" value="twelve" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
+      <option name="METHOD_NAME" value="seven" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_10_RegularExpressionMatchingKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
+      <option name="METHOD_NAME" value="three" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -446,19 +425,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._8_StringToIntegerKtTest" />
-      <item itemvalue="JUnit._8_StringToIntegerKtTest.twelve" />
-      <item itemvalue="JUnit._8_StringToIntegerKtTest.thirteen" />
-      <item itemvalue="JUnit._8_StringToIntegerKtTest.fourteen" />
-      <item itemvalue="JUnit._11_ContainerWithMostWaterKtTest.maxArea" />
+      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
+      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.three" />
+      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.seven" />
+      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.four" />
+      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.eight" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._11_ContainerWithMostWaterKtTest.maxArea" />
-        <item itemvalue="JUnit._8_StringToIntegerKtTest" />
-        <item itemvalue="JUnit._8_StringToIntegerKtTest.fourteen" />
-        <item itemvalue="JUnit._8_StringToIntegerKtTest.thirteen" />
-        <item itemvalue="JUnit._8_StringToIntegerKtTest.twelve" />
+        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.eight" />
+        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.seven" />
+        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
+        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.three" />
+        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest.four" />
       </list>
     </recent_temporary>
   </component>
@@ -476,40 +455,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_8_StringToIntegerKtTest_thirteen - 2018.06.20 at 22h 44m 07s.xml">
-      <configuration name="_8_StringToIntegerKtTest.thirteen" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_four - 2018.06.21 at 00h 43m 26s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.four" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest_thirteen - 2018.06.20 at 22h 44m 44s.xml">
-      <configuration name="_8_StringToIntegerKtTest.thirteen" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_four - 2018.06.21 at 00h 43m 42s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.four" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest_thirteen - 2018.06.20 at 22h 44m 49s.xml">
-      <configuration name="_8_StringToIntegerKtTest.thirteen" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_four - 2018.06.21 at 00h 44m 23s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.four" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 44m 54s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 00h 44m 31s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest_fourteen - 2018.06.20 at 22h 46m 10s.xml">
-      <configuration name="_8_StringToIntegerKtTest.fourteen" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_three - 2018.06.21 at 00h 45m 25s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest_fourteen - 2018.06.20 at 22h 46m 51s.xml">
-      <configuration name="_8_StringToIntegerKtTest.fourteen" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_three - 2018.06.21 at 00h 45m 30s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 47m 06s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 00h 45m 36s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 47m 54s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_seven - 2018.06.21 at 00h 47m 09s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.seven" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 50m 04s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_seven - 2018.06.21 at 00h 48m 29s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.seven" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 50m 14s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_10_RegularExpressionMatchingKtTest_eight - 2018.06.21 at 00h 48m 37s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest.eight" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -521,10 +499,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -608,73 +586,59 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="115" />
+      <option name="time" value="133" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>this[firstGood - 1]</expression-string>
+        <expression-string>strs.all { it.isEmpty() } &amp;&amp; chunks.any { it.length == 1 }</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this[3]</expression-string>
+        <expression-string>strs.all { it.isEmpty() } &amp;&amp; chunks.filter { it.length == 1 }.isNotEmpty()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this[2]</expression-string>
+        <expression-string>chunks.filter { it.length == 1 }.isNotEmpty()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this[1]</expression-string>
+        <expression-string>chunks.filter { it.length == 1 }</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>this[0]</expression-string>
+        <expression-string>chunks</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str[firstGood - 1] + numStr</expression-string>
+        <expression-string>strs.all { it.isEmpty() }</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>firstGood != 0 &amp;&amp; str[firstGood - 1] in allowed</expression-string>
+        <expression-string>strs</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>str[firstGood - 1]</expression-string>
+        <expression-string>possibilities.isEmpty()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>'5' in '0'..'9'</expression-string>
+        <expression-string>this.isEmpty() &amp;&amp; pattern.length == 1</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/SortedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1977">
-          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -724,13 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="867" column="53" selection-start-line="867" selection-start-column="53" selection-end-line="867" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -998,13 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1029,17 +979,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#23#88#0" expanded="true" />
           </folding>
