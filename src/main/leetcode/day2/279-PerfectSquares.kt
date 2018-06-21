@@ -1,25 +1,23 @@
 package leetcode.day2
 
-import java.lang.Math.sqrt
+import kotlin.math.sqrt
 
 fun numSquares(n: Int): Int {
-  val arr = IntArray(n + 1)
+  val arr = IntArray(n + 1) { Integer.MAX_VALUE - 1 }
 
-  val i = sqrt(n.toDouble()).toInt()
-  val squares = (i downTo 1).map { it * it }
+  val root = sqrt(n.toDouble()).toInt()
+  val squares = (root downTo 1).map { it * it }
 
-  squares.forEach { square ->
+  squares.forEach {  square ->
+    if (square > n) return@forEach
     arr[square] = 1
-    var total = square
-    while (total <= n) {
-      if (total - square < 0) {
-        arr[total] = 1
-      } else if (arr[total] == 0 || arr[total] > arr[total - square] + 1) {
-        arr[total] = arr[total - square] + 1
+    for (i in square + 1 .. n) {
+      if (arr[i] > arr[i - square] + 1) {
+        arr[i] = arr[i - square] + 1
       }
-      total += square
     }
   }
 
-  return 0
+  if (arr[n] == Integer.MAX_VALUE) return -1
+  return arr[n]
 }

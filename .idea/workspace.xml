@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/day2/_279_PerfectSquaresKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/day2/_279_PerfectSquaresKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,38 +26,38 @@
       <file leaf-file-name="279-PerfectSquares.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_279_PerfectSquaresKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#23#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="322-CoinChange.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/322-CoinChange.kt">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CoinProblem.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt">
+      <file leaf-file-name="322-CoinChange.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/322-CoinChange.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoinProblemKtTest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#27#92#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_279_PerfectSquaresKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state>
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -152,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumSalary.kt" />
@@ -199,10 +193,11 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.java" />
-        <option value="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/CoinProblem.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" />
       </list>
     </option>
   </component>
@@ -259,6 +254,25 @@
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -293,12 +307,14 @@
       <recent name="week1" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="leetcode.day2" />
       <recent name="leetcode.day1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/leetcode/day2" />
       <recent name="$PROJECT_DIR$/src/main/leetcode/day1" />
       <recent name="$PROJECT_DIR$/src/main/unrelated/algorithms" />
     </key>
@@ -315,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CoinProblemKtTest">
+  <component name="RunManager" selected="JUnit._279_PerfectSquaresKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -484,11 +500,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
         <item itemvalue="JUnit.CoinProblemKtTest" />
         <item itemvalue="JUnit.CoinProblemKtTest.five" />
         <item itemvalue="JUnit.CoinProblemKtTest.four" />
         <item itemvalue="JUnit.CoinProblemKtTest.three" />
-        <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -506,15 +522,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoinProblemKtTest - 2018.06.21 at 11h 47m 58s.xml">
-      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinProblemKtTest - 2018.06.21 at 11h 48m 12s.xml">
-      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 54m 49s.xml">
-      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 56m 10s.xml">
       <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
@@ -536,6 +543,15 @@
     <history-entry file="CoinProblemKtTest - 2018.06.21 at 12h 03m 53s.xml">
       <configuration name="CoinProblemKtTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CoinProblemKtTest_five - 2018.06.21 at 12h 06m 56s.xml">
+      <configuration name="CoinProblemKtTest.five" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinProblemKtTest - 2018.06.21 at 12h 07m 01s.xml">
+      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CoinProblemKtTest - 2018.06.21 at 12h 07m 33s.xml">
+      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -543,7 +559,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -551,7 +567,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
@@ -644,8 +660,8 @@
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt</url>
-          <line>20</line>
+          <url>file://$PROJECT_DIR$/src/main/leetcode/day2/322-CoinChange.kt</url>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
@@ -1053,16 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#23#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1070,26 +1076,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/322-CoinChange.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/322-CoinChange.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="330">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#27#92#0" expanded="true" />
+            <element signature="e#23#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
