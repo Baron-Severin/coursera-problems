@@ -1,18 +1,25 @@
 package leetcode.day2
 
-import kotlin.math.sqrt
+import java.lang.Math.sqrt
 
 fun numSquares(n: Int): Int {
+  val arr = IntArray(n + 1)
 
   val i = sqrt(n.toDouble()).toInt()
   val squares = (i downTo 1).map { it * it }
 
-  return recurse(n, 0, 0, squares) ?: 0
-}
+  squares.forEach { square ->
+    arr[square] = 1
+    var total = square
+    while (total <= n) {
+      if (total - square < 0) {
+        arr[total] = 1
+      } else if (arr[total] == 0 || arr[total] > arr[total - square] + 1) {
+        arr[total] = arr[total - square] + 1
+      }
+      total += square
+    }
+  }
 
-fun recurse(n: Int, current: Int, count: Int, squares: List<Int>): Int? {
-  val next = squares.map { it + current }.filter { it <= n }
-  if (next.isEmpty()) return null
-  if (next.any{ it == n }) return count + 1
-  return next.mapNotNull { recurse(n, it, count + 1, squares) }.minBy { it }
+  return 0
 }

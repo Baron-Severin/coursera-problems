@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/day1/_10_RegularExpressionMatchingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/day1/_10_RegularExpressionMatchingKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/day2/_279_PerfectSquaresKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/day2/_279_PerfectSquaresKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +28,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="279-PerfectSquares.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="279-PerfectSquares.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinProblem.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinProblemKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#27#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +94,8 @@
       <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="175" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="41">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -130,9 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumNumberOfPrizes.kt" />
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/CollectingSignatures.kt" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt" />
@@ -181,6 +200,9 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" />
+        <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" />
+        <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt" />
       </list>
     </option>
   </component>
@@ -227,6 +249,12 @@
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,10 +280,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="random.algorithms" />
       <recent name="leetcode.day2" />
       <recent name="leetcode.day1" />
       <recent name="leetcode" />
-      <recent name="random.algorithms" />
       <recent name="algorithmic.toolbox.week4" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -287,12 +315,104 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._279_PerfectSquaresKtTest.five">
+  <component name="RunManager" selected="JUnit.CoinProblemKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CoinProblemKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="random.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="random.algorithms.CoinProblemKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CoinProblemKtTest.five" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="random.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="random.algorithms.CoinProblemKtTest" />
+      <option name="METHOD_NAME" value="five" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CoinProblemKtTest.four" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="random.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="random.algorithms.CoinProblemKtTest" />
+      <option name="METHOD_NAME" value="four" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CoinProblemKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="random.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="random.algorithms" />
+      <option name="MAIN_CLASS_NAME" value="random.algorithms.CoinProblemKtTest" />
+      <option name="METHOD_NAME" value="three" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="_279_PerfectSquaresKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
@@ -308,98 +428,6 @@
       <option name="MAIN_CLASS_NAME" value="leetcode.day2._279_PerfectSquaresKtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_279_PerfectSquaresKtTest.five" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._279_PerfectSquaresKtTest" />
-      <option name="METHOD_NAME" value="five" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_279_PerfectSquaresKtTest.four" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._279_PerfectSquaresKtTest" />
-      <option name="METHOD_NAME" value="four" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_279_PerfectSquaresKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._279_PerfectSquaresKtTest" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_279_PerfectSquaresKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._279_PerfectSquaresKtTest" />
-      <option name="METHOD_NAME" value="three" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -448,19 +476,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._279_PerfectSquaresKtTest.three" />
       <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
-      <item itemvalue="JUnit._279_PerfectSquaresKtTest.one" />
-      <item itemvalue="JUnit._279_PerfectSquaresKtTest.four" />
-      <item itemvalue="JUnit._279_PerfectSquaresKtTest.five" />
+      <item itemvalue="JUnit.CoinProblemKtTest" />
+      <item itemvalue="JUnit.CoinProblemKtTest.three" />
+      <item itemvalue="JUnit.CoinProblemKtTest.four" />
+      <item itemvalue="JUnit.CoinProblemKtTest.five" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit._279_PerfectSquaresKtTest.five" />
-        <item itemvalue="JUnit._279_PerfectSquaresKtTest.four" />
-        <item itemvalue="JUnit._279_PerfectSquaresKtTest.three" />
+        <item itemvalue="JUnit.CoinProblemKtTest" />
+        <item itemvalue="JUnit.CoinProblemKtTest.five" />
+        <item itemvalue="JUnit.CoinProblemKtTest.four" />
+        <item itemvalue="JUnit.CoinProblemKtTest.three" />
         <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
-        <item itemvalue="JUnit._279_PerfectSquaresKtTest.one" />
       </list>
     </recent_temporary>
   </component>
@@ -478,35 +506,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_279_PerfectSquaresKtTest - 2018.06.21 at 10h 26m 25s.xml">
-      <configuration name="_279_PerfectSquaresKtTest" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest - 2018.06.21 at 11h 47m 58s.xml">
+      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest - 2018.06.21 at 10h 27m 08s.xml">
-      <configuration name="_279_PerfectSquaresKtTest" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest - 2018.06.21 at 11h 48m 12s.xml">
+      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest - 2018.06.21 at 10h 27m 12s.xml">
-      <configuration name="_279_PerfectSquaresKtTest" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 54m 49s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_three - 2018.06.21 at 10h 28m 31s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.three" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 56m 10s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_four - 2018.06.21 at 10h 30m 10s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.four" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 56m 14s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_four - 2018.06.21 at 10h 30m 36s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.four" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 57m 06s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_four - 2018.06.21 at 10h 30m 51s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.four" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 12h 02m 46s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_five - 2018.06.21 at 10h 31m 54s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.five" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 12h 03m 41s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_five - 2018.06.21 at 10h 36m 31s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.five" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 12h 03m 46s.xml">
+      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_279_PerfectSquaresKtTest_five - 2018.06.21 at 10h 37m 04s.xml">
-      <configuration name="_279_PerfectSquaresKtTest.five" configurationId="JUnit" />
+    <history-entry file="CoinProblemKtTest - 2018.06.21 at 12h 03m 53s.xml">
+      <configuration name="CoinProblemKtTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -515,14 +543,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32918397" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -611,24 +639,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt</url>
-          <line>15</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt</url>
-          <line>9</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="141" />
+      <option name="time" value="152" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>total</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[total - coin] + 1</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[total - coin]</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[total] == -1</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>i.toInt() * 7</expression-string>
         <language-id>kotlin</language-id>
@@ -654,46 +700,9 @@
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>chunks.filter { it.length == 1 }</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>chunks</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>strs.all { it.isEmpty() }</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>strs</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumAdvertisementRevenue.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#35#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/CollectingSignaturesKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1875">
-          <caret line="125" column="5" lean-forward="true" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/CollectingSignatures.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1020,13 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="175" selection-start-line="175" selection-end-line="175" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1061,10 +1063,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#27#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
