@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.day1
 
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals

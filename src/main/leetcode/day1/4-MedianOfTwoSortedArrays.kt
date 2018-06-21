@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.day1
 
 fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
   val all = merge(nums1, nums2)

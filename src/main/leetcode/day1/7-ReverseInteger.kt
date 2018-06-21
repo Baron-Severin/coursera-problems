@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.day1
 
 import java.lang.Math.abs
 

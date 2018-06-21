@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.day1
 
 
 fun convert(s: String, rows: Int): String {

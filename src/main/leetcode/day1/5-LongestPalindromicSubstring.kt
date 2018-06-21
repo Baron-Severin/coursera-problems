@@ -1,4 +1,4 @@
-package leetcode
+package leetcode.day1
 
 
 private lateinit var str: String
