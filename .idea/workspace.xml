@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/13-RomanToInteger.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_13_RomanToIntegerKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="12-IntegerToRoman.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="12-IntegerToRoman.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_10_RegularExpressionMatchingKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
+      <file leaf-file-name="_12_IntegerToRomanKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -38,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="13-RomanToInteger.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="13-RomanToInteger.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/13-RomanToInteger.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -111,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/random/algorithms/QuickSorterTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/random/algorithms/MergeSort.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/MergeSortKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/MergeSortKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/random/algorithms/QuickSort.kt" />
@@ -158,10 +154,12 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/CoinProblem.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_13_RomanToIntegerKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_13_RomanToIntegerKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/13-RomanToInteger.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt" />
       </list>
     </option>
   </component>
@@ -302,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._13_RomanToIntegerKtTest">
+  <component name="RunManager" selected="JUnit._12_IntegerToRomanKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -332,29 +330,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CoinProblemKtTest.five" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="random.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="random.algorithms" />
-      <option name="MAIN_CLASS_NAME" value="random.algorithms.CoinProblemKtTest" />
-      <option name="METHOD_NAME" value="five" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="_10_RegularExpressionMatchingKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
@@ -367,6 +342,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day1" />
       <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_12_IntegerToRomanKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._12_IntegerToRomanKtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -465,17 +463,17 @@
     <list>
       <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
       <item itemvalue="JUnit.CoinProblemKtTest" />
-      <item itemvalue="JUnit.CoinProblemKtTest.five" />
       <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
       <item itemvalue="JUnit._13_RomanToIntegerKtTest" />
+      <item itemvalue="JUnit._12_IntegerToRomanKtTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._12_IntegerToRomanKtTest" />
         <item itemvalue="JUnit._13_RomanToIntegerKtTest" />
         <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
         <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
         <item itemvalue="JUnit.CoinProblemKtTest" />
-        <item itemvalue="JUnit.CoinProblemKtTest.five" />
       </list>
     </recent_temporary>
   </component>
@@ -537,8 +535,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
@@ -684,13 +682,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumSalaryKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week3/MaximumSalary.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1030,27 +1021,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#23#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1071,10 +1045,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/13-RomanToInteger.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
