@@ -5,6 +5,12 @@ import kotlin.test.assertEquals
 
 internal class _6_ZigZagConversionKtTest {
 
+  @Test fun convert() {
+    assertEquals("PAHNAPLSIIGYIR", convert("PAYPALISHIRING", 3))
+    assertEquals("PINALSIGYAHRPI", convert("PAYPALISHIRING", 4))
+    assertEquals("A", convert("A", 1))
+  }
+
   @Test
   fun shouldPrint() {
     for (i in 0 until 4) {

@@ -33,20 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6-ZigZagConversion.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="6-ZigZagConversion.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/6-ZigZagConversion.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_6_ZigZagConversionKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_6_ZigZagConversionKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/_6_ZigZagConversionKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#18#83#0" expanded="true" />
               </folding>
@@ -290,12 +290,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._6_ZigZagConversionKtTest.getColumns">
+  <component name="RunManager" selected="JUnit._6_ZigZagConversionKtTest.convert">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="_6_ZigZagConversionKtTest.convert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode._6_ZigZagConversionKtTest" />
+      <option name="METHOD_NAME" value="convert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="_6_ZigZagConversionKtTest.getColumns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
@@ -356,29 +379,6 @@
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode._7_ReverseIntegerKtTest" />
       <option name="METHOD_NAME" value="reverseFast" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_7_ReverseIntegerKtTest.reverseFastish" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode._7_ReverseIntegerKtTest" />
-      <option name="METHOD_NAME" value="reverseFastish" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -453,17 +453,17 @@
     <list>
       <item itemvalue="JUnit._7_ReverseIntegerKtTest.speedTest" />
       <item itemvalue="JUnit._7_ReverseIntegerKtTest.reverseFast" />
-      <item itemvalue="JUnit._7_ReverseIntegerKtTest.reverseFastish" />
       <item itemvalue="JUnit._6_ZigZagConversionKtTest.shouldPrint" />
       <item itemvalue="JUnit._6_ZigZagConversionKtTest.getColumns" />
+      <item itemvalue="JUnit._6_ZigZagConversionKtTest.convert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._6_ZigZagConversionKtTest.convert" />
         <item itemvalue="JUnit._6_ZigZagConversionKtTest.getColumns" />
         <item itemvalue="JUnit._6_ZigZagConversionKtTest.shouldPrint" />
         <item itemvalue="JUnit._7_ReverseIntegerKtTest.reverseFast" />
         <item itemvalue="JUnit._7_ReverseIntegerKtTest.speedTest" />
-        <item itemvalue="JUnit._7_ReverseIntegerKtTest.reverseFastish" />
       </list>
     </recent_temporary>
   </component>
@@ -481,40 +481,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_7_ReverseIntegerKtTest_reverseFastish - 2018.06.20 at 19h 00m 57s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.reverseFastish" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_getColumns - 2018.06.20 at 19h 25m 30s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.getColumns" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_reverseFast - 2018.06.20 at 19h 02m 00s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.reverseFast" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 29m 29s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_reverseFast - 2018.06.20 at 19h 02m 28s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.reverseFast" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 30m 42s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_speedTest - 2018.06.20 at 19h 03m 01s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.speedTest" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 31m 14s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_speedTest - 2018.06.20 at 19h 03m 39s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.speedTest" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 34m 44s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_speedTest - 2018.06.20 at 19h 03m 44s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.speedTest" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 35m 37s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_reverseFast - 2018.06.20 at 19h 03m 51s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.reverseFast" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 36m 36s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_7_ReverseIntegerKtTest_reverseFast - 2018.06.20 at 19h 04m 16s.xml">
-      <configuration name="_7_ReverseIntegerKtTest.reverseFast" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 38m 00s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_ZigZagConversionKtTest_shouldPrint - 2018.06.20 at 19h 15m 44s.xml">
-      <configuration name="_6_ZigZagConversionKtTest.shouldPrint" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 38m 23s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_6_ZigZagConversionKtTest_shouldPrint - 2018.06.20 at 19h 16m 13s.xml">
-      <configuration name="_6_ZigZagConversionKtTest.shouldPrint" configurationId="JUnit" />
+    <history-entry file="_6_ZigZagConversionKtTest_convert - 2018.06.20 at 19h 38m 31s.xml">
+      <configuration name="_6_ZigZagConversionKtTest.convert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -612,8 +611,14 @@
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/leetcode/6-ZigZagConversion.kt</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="80" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -942,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/4-MedianOfTwoSortedArrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1028,20 +1026,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/6-ZigZagConversion.kt">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="56">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/_6_ZigZagConversionKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#18#83#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/6-ZigZagConversion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
