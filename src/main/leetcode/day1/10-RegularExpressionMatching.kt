@@ -6,7 +6,7 @@ package leetcode.day1
  * I was very tired.
  */
 fun isMatch(s: String, p: String): Boolean {
-  val chunks = p.patternToChunks()
+  val chunks = p.patternToChunks().collapseChunks()
   return recurse(listOf(s), chunks)
 }
 
@@ -38,6 +38,15 @@ private fun String.patternToChunks(): List<String> {
     }
   }
   return list.reversed()
+}
+
+private fun List<String>.collapseChunks(): List<String> {
+  return this.fold(mutableListOf()) { acc, chunk ->
+    if (chunk.length == 1 || acc.isEmpty() || acc.last() != chunk) {
+      acc += chunk
+    }
+    acc
+  }
 }
 
 private fun String.possibleRemainings(pattern: String): List<String>? {

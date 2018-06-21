@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,62 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10-RegularExpressionMatching.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="10-RegularExpressionMatching.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="279-PerfectSquares.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_279_PerfectSquaresKtTest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#23#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="322-CoinChange.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/322-CoinChange.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="322-CoinChange.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/322-CoinChange.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#23#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Collections.kt" pinned="false" current-in-tab="false">
-        <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
+            <state relative-caret-position="255">
+              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,20 +27,11 @@
       <file leaf-file-name="_10_RegularExpressionMatchingKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
+            <state relative-caret-position="288">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectionUtils.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
             </state>
           </provider>
         </entry>
@@ -190,7 +131,6 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.java" />
@@ -198,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/CoinProblem.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" />
       </list>
     </option>
   </component>
@@ -233,6 +174,13 @@
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._279_PerfectSquaresKtTest">
+  <component name="RunManager" selected="JUnit._10_RegularExpressionMatchingKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -407,20 +355,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CoinProblemKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_10_RegularExpressionMatchingKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="random.algorithms.*" />
+          <option name="PATTERN" value="leetcode.day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="random.algorithms" />
-      <option name="MAIN_CLASS_NAME" value="random.algorithms.CoinProblemKtTest" />
-      <option name="METHOD_NAME" value="three" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="leetcode.day1" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -494,17 +442,17 @@
     <list>
       <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
       <item itemvalue="JUnit.CoinProblemKtTest" />
-      <item itemvalue="JUnit.CoinProblemKtTest.three" />
       <item itemvalue="JUnit.CoinProblemKtTest.four" />
       <item itemvalue="JUnit.CoinProblemKtTest.five" />
+      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
         <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
         <item itemvalue="JUnit.CoinProblemKtTest" />
         <item itemvalue="JUnit.CoinProblemKtTest.five" />
         <item itemvalue="JUnit.CoinProblemKtTest.four" />
-        <item itemvalue="JUnit.CoinProblemKtTest.three" />
       </list>
     </recent_temporary>
   </component>
@@ -522,18 +470,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 56m 10s.xml">
-      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 56m 14s.xml">
-      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 11h 57m 06s.xml">
-      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 12h 02m 46s.xml">
-      <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoinProblemKtTest_three - 2018.06.21 at 12h 03m 41s.xml">
       <configuration name="CoinProblemKtTest.three" configurationId="JUnit" />
     </history-entry>
@@ -552,6 +488,18 @@
     <history-entry file="CoinProblemKtTest - 2018.06.21 at 12h 07m 33s.xml">
       <configuration name="CoinProblemKtTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_279_PerfectSquaresKtTest - 2018.06.21 at 12h 18m 18s.xml">
+      <configuration name="_279_PerfectSquaresKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_279_PerfectSquaresKtTest - 2018.06.21 at 12h 20m 57s.xml">
+      <configuration name="_279_PerfectSquaresKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_279_PerfectSquaresKtTest - 2018.06.21 at 12h 21m 02s.xml">
+      <configuration name="_279_PerfectSquaresKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 12h 28m 46s.xml">
+      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -566,11 +514,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -654,23 +602,37 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/leetcode/day2/322-CoinChange.kt</url>
           <line>21</line>
           <properties />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="152" />
+      <option name="time" value="154" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>arr[i] - (arr[i - square] + 1)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[i] &gt; arr[i - square] + 1</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[i]</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[i - square]</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>total</expression-string>
         <language-id>kotlin</language-id>
@@ -693,26 +655,6 @@
       </expression>
       <expression>
         <expression-string>i.toInt() * 7</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i.toInt()</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>strs.all { it.isEmpty() } &amp;&amp; chunks.any { it.length == 1 }</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>strs.all { it.isEmpty() } &amp;&amp; chunks.filter { it.length == 1 }.isNotEmpty()</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>chunks.filter { it.length == 1 }.isNotEmpty()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1038,30 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#23#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/MathH.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1069,10 +987,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        <state relative-caret-position="161">
+          <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
         </state>
       </provider>
     </entry>
@@ -1093,20 +1011,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="300">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="e#23#88#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/279-PerfectSquares.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
