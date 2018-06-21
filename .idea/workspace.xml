@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +15,8 @@
       <file leaf-file-name="8-StringToInteger.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="255">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -38,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -147,8 +143,8 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/6-ZigZagConversion.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day1/6-ZigZagConversion.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt" />
       </list>
     </option>
   </component>
@@ -446,21 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 42m 24s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 42m 47s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 43m 10s.xml">
-      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest_thirteen - 2018.06.20 at 22h 43m 47s.xml">
-      <configuration name="_8_StringToIntegerKtTest.thirteen" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_8_StringToIntegerKtTest_thirteen - 2018.06.20 at 22h 44m 02s.xml">
-      <configuration name="_8_StringToIntegerKtTest.thirteen" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_8_StringToIntegerKtTest_thirteen - 2018.06.20 at 22h 44m 07s.xml">
       <configuration name="_8_StringToIntegerKtTest.thirteen" configurationId="JUnit" />
     </history-entry>
@@ -476,6 +457,21 @@
     <history-entry file="_8_StringToIntegerKtTest_fourteen - 2018.06.20 at 22h 46m 10s.xml">
       <configuration name="_8_StringToIntegerKtTest.fourteen" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_8_StringToIntegerKtTest_fourteen - 2018.06.20 at 22h 46m 51s.xml">
+      <configuration name="_8_StringToIntegerKtTest.fourteen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 47m 06s.xml">
+      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 47m 54s.xml">
+      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 50m 04s.xml">
+      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_8_StringToIntegerKtTest - 2018.06.20 at 22h 50m 14s.xml">
+      <configuration name="_8_StringToIntegerKtTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -490,8 +486,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
@@ -576,18 +572,6 @@
           <line>8</line>
           <properties />
           <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt</url>
-          <line>42</line>
-          <properties />
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="114" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="115" />
@@ -1011,7 +995,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_8_StringToIntegerKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="58" column="2" lean-forward="true" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#23#88#0" expanded="true" />
           </folding>
@@ -1020,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
