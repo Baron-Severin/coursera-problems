@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +38,22 @@
       <file leaf-file-name="15-3Sum.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_15_3SumKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="16-3SumClosest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_15_3SumKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -64,8 +71,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -110,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.java" />
@@ -159,8 +165,9 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt" />
       </list>
     </option>
   </component>
@@ -301,35 +308,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._15_3SumKtTest">
+  <component name="RunManager" selected="JUnit._16_3SumClosestKtTest.one">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="_12_IntegerToRomanKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._12_IntegerToRomanKtTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="_14_LongestCommonPrefixKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
@@ -423,6 +407,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="_16_3SumClosestKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._16_3SumClosestKtTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -462,19 +469,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._12_IntegerToRomanKtTest" />
       <item itemvalue="JUnit._14_LongestCommonPrefixKtTest" />
       <item itemvalue="JUnit._15_3SumKtTest.one" />
       <item itemvalue="JUnit._15_3SumKtTest.two" />
       <item itemvalue="JUnit._15_3SumKtTest" />
+      <item itemvalue="JUnit._16_3SumClosestKtTest.one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._16_3SumClosestKtTest.one" />
         <item itemvalue="JUnit._15_3SumKtTest" />
         <item itemvalue="JUnit._15_3SumKtTest.two" />
         <item itemvalue="JUnit._15_3SumKtTest.one" />
         <item itemvalue="JUnit._14_LongestCommonPrefixKtTest" />
-        <item itemvalue="JUnit._12_IntegerToRomanKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -492,12 +499,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 09m 36s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 12m 49s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 13m 35s.xml">
       <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
@@ -522,6 +523,12 @@
     <history-entry file="_15_3SumKtTest_two - 2018.06.21 at 17h 30m 52s.xml">
       <configuration name="_15_3SumKtTest.two" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_15_3SumKtTest - 2018.06.21 at 17h 34m 32s.xml">
+      <configuration name="_15_3SumKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_15_3SumKtTest - 2018.06.21 at 17h 34m 42s.xml">
+      <configuration name="_15_3SumKtTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -536,11 +543,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -683,13 +690,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1069,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1083,6 +1076,20 @@
           <folding>
             <element signature="e#23#88#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
