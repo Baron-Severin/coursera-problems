@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day3/22-GenerateParentheses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day3/_22_GenerateParenthesesKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/todo/24-SwapNodesInPairs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/todo/25-ReverseNodesInKGroup.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/todo/26-RemoveDuplicatesFromSortedArray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/todo/27-RemoveElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/todo/28-ImplementStrStr.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +38,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="22-GenerateParentheses.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="22-GenerateParentheses.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/22-GenerateParentheses.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="23-MergeKLinkedLists.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="24-SwapNodesInPairs.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/24-SwapNodesInPairs.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="25-ReverseNodesInKGroup.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/25-ReverseNodesInKGroup.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27-RemoveElement.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/27-RemoveElement.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="28-ImplementStrStr.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/28-ImplementStrStr.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -45,8 +95,8 @@
       <file leaf-file-name="_22_GenerateParenthesesKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_22_GenerateParenthesesKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="183">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -66,26 +116,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_18_4SumKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_18_4SumKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="63" />
-              <folding>
-                <element signature="e#23#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -132,15 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/9-PalindromeNumber.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day1/_10_RegularExpressionMatchingKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_279_PerfectSquaresKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/CoinProblemKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/random/algorithms/CoinProblem.kt" />
@@ -181,8 +210,17 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day3/_21_MergeTwoSortedListsKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day3/21-MergeTwoSortedLists.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day3/_22_GenerateParenthesesKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day3/_22_GenerateParenthesesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day3/22-GenerateParentheses.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day3/_22_GenerateParenthesesKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day3/23-MergeKLinkedLists.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day3/25-ReverseNodesInKGroup.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day3/24-SwapNodesInPairs.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/todo/24-SwapNodesInPairs.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/todo/25-ReverseNodesInKGroup.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/todo/26-RemoveDuplicatesFromSortedArray.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/todo/27-RemoveElement.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/todo/28-ImplementStrStr.kt" />
       </list>
     </option>
   </component>
@@ -225,6 +263,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="day3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
@@ -299,6 +344,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/leetcode/todo" />
       <recent name="$PROJECT_DIR$/src/main/leetcode/day2" />
       <recent name="$PROJECT_DIR$/src/main/leetcode/day1" />
       <recent name="$PROJECT_DIR$/src/main/unrelated/algorithms" />
@@ -507,15 +553,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_21_MergeTwoSortedListsKtTest_one - 2018.06.22 at 13h 38m 16s.xml">
-      <configuration name="_21_MergeTwoSortedListsKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_21_MergeTwoSortedListsKtTest_one - 2018.06.22 at 13h 39m 30s.xml">
-      <configuration name="_21_MergeTwoSortedListsKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_21_MergeTwoSortedListsKtTest_one - 2018.06.22 at 13h 39m 35s.xml">
-      <configuration name="_21_MergeTwoSortedListsKtTest.one" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_22_GenerateParenthesesKtTest_one - 2018.06.22 at 14h 35m 45s.xml">
       <configuration name="_22_GenerateParenthesesKtTest.one" configurationId="JUnit" />
     </history-entry>
@@ -537,6 +574,15 @@
     <history-entry file="_22_GenerateParenthesesKtTest_two - 2018.06.22 at 14h 44m 38s.xml">
       <configuration name="_22_GenerateParenthesesKtTest.two" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_22_GenerateParenthesesKtTest_two - 2018.06.22 at 14h 47m 46s.xml">
+      <configuration name="_22_GenerateParenthesesKtTest.two" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_22_GenerateParenthesesKtTest_two - 2018.06.22 at 14h 48m 26s.xml">
+      <configuration name="_22_GenerateParenthesesKtTest.two" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_22_GenerateParenthesesKtTest_one - 2018.06.22 at 14h 49m 11s.xml">
+      <configuration name="_22_GenerateParenthesesKtTest.one" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -552,16 +598,16 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35372713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35372713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972338" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -662,12 +708,6 @@
           <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/day3/22-GenerateParentheses.kt</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="185" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="186" />
     </breakpoint-manager>
@@ -722,48 +762,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="56" column="60" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_7_ReverseIntegerKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_5_LongestPalindromicSubstringKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/MutableCollections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Standard.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="119" column="24" selection-start-line="119" selection-start-column="24" selection-end-line="119" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Ranges.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Strings.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -775,6 +773,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -873,6 +874,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,8 +1083,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_22_GenerateParenthesesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="183">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#23#88#0" expanded="true" />
           </folding>
@@ -1089,8 +1093,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/22-GenerateParentheses.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/24-SwapNodesInPairs.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/26-RemoveDuplicatesFromSortedArray.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/25-ReverseNodesInKGroup.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/27-RemoveElement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/28-ImplementStrStr.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
