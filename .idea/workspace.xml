@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/leetcode/day2/_318_MaximumProductOfWordLengthsKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_318_MaximumProductOfWordLengthsKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day3/18-4Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day3/_18_4SumKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,71 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19-RemoveTheNthFromTheEnd.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
+      <file leaf-file-name="18-4Sum.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/18-4Sum.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20-ValidParentheses.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="318-MaximumProductOfWordLengths.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/318-MaximumProductOfWordLengths.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="12-IntegerToRoman.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt">
+      <file leaf-file-name="_18_4SumKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_18_4SumKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_318_MaximumProductOfWordLengthsKtTest.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_318_MaximumProductOfWordLengthsKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#23#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_20_ValidParenthesesKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#23#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_19_RemoveTheNthFromTheEndKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="63" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -112,6 +63,7 @@
       <find>String</find>
       <find>reverse</find>
       <find>reverseFast</find>
+      <find>[</find>
     </findStrings>
     <replaceStrings>
       <replace>listOf</replace>
@@ -123,6 +75,7 @@
       <replace>Char</replace>
       <replace>reverseFast</replace>
       <replace>reverseFastish</replace>
+      <replace>setOf(</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,9 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/leetcode/_7_ReverseIntegerKtTest.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/7-ReverseInteger.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/_7_ReverseIntegerKtTest.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/_6_ZigZagConversionKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/_6_ZigZagConversionKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/6-ZigZagConversion.kt" />
@@ -189,6 +139,9 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_318_MaximumProductOfWordLengthsKtTest.java" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/318-MaximumProductOfWordLengths.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_318_MaximumProductOfWordLengthsKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day3/_18_4SumKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day3/_18_4SumKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day3/18-4Sum.kt" />
       </list>
     </option>
   </component>
@@ -230,14 +183,7 @@
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="day3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
@@ -292,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="leetcode.day3" />
       <recent name="leetcode.day2" />
       <recent name="random.algorithms" />
       <recent name="leetcode.day1" />
       <recent name="leetcode" />
-      <recent name="algorithmic.toolbox.week4" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="leetcode" />
@@ -329,27 +275,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._318_MaximumProductOfWordLengthsKtTest.time">
+  <component name="RunManager" selected="JUnit._18_4SumKtTest.one">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="_19_RemoveTheNthFromTheEndKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_18_4SumKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="PATTERN" value="leetcode.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._19_RemoveTheNthFromTheEndKtTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="leetcode.day3" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day3._18_4SumKtTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -490,19 +436,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest" />
       <item itemvalue="JUnit._20_ValidParenthesesKtTest" />
       <item itemvalue="JUnit._318_MaximumProductOfWordLengthsKtTest" />
       <item itemvalue="JUnit._318_MaximumProductOfWordLengthsKtTest.two" />
       <item itemvalue="JUnit._318_MaximumProductOfWordLengthsKtTest.time" />
+      <item itemvalue="JUnit._18_4SumKtTest.one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._18_4SumKtTest.one" />
         <item itemvalue="JUnit._318_MaximumProductOfWordLengthsKtTest.time" />
         <item itemvalue="JUnit._318_MaximumProductOfWordLengthsKtTest" />
         <item itemvalue="JUnit._318_MaximumProductOfWordLengthsKtTest.two" />
         <item itemvalue="JUnit._20_ValidParenthesesKtTest" />
-        <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -520,35 +466,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest - 2018.06.21 at 22h 48m 07s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 15m 54s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest_two - 2018.06.21 at 22h 49m 13s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest.two" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 17m 04s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest - 2018.06.21 at 22h 49m 26s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 21m 50s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest - 2018.06.21 at 22h 55m 33s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 22m 08s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest - 2018.06.22 at 11h 52m 22s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 54m 33s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest - 2018.06.22 at 11h 54m 49s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 54m 55s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest_time - 2018.06.22 at 11h 57m 56s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest.time" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 55m 20s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest_time - 2018.06.22 at 11h 59m 12s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest.time" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 55m 57s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest_time - 2018.06.22 at 11h 59m 29s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest.time" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 57m 56s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_318_MaximumProductOfWordLengthsKtTest_time - 2018.06.22 at 11h 59m 45s.xml">
-      <configuration name="_318_MaximumProductOfWordLengthsKtTest.time" configurationId="JUnit" />
+    <history-entry file="_18_4SumKtTest_one - 2018.06.22 at 12h 58m 18s.xml">
+      <configuration name="_18_4SumKtTest.one" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -676,7 +622,7 @@
           <option name="timeStamp" value="168" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="169" />
+      <option name="time" value="177" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -729,23 +675,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_4_MedianOfTwoSortedArraysKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#18#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="785" column="22" selection-start-line="785" selection-start-column="22" selection-end-line="785" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/6-ZigZagConversion.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1047,23 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#23#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1084,41 +996,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#23#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/318-MaximumProductOfWordLengths.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1138,11 +1019,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_318_MaximumProductOfWordLengthsKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="138">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
             <element signature="e#23#155#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/318-MaximumProductOfWordLengths.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#23#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_18_4SumKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/18-4Sum.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
