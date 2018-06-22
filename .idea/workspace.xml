@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_17_LetterCombinationsOfAPhoneNumberKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +46,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="16-3SumClosest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="16-3SumClosest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="17-LetterCombinationsOfAPhoneNumber.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="25" column="77" lean-forward="true" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_17_LetterCombinationsOfAPhoneNumberKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_17_LetterCombinationsOfAPhoneNumberKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#23#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_16_3SumClosestKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_16_3SumClosestKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#23#88#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +106,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -117,11 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt" />
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.java" />
         <option value="$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt" />
         <option value="$PROJECT_DIR$/src/test/random/algorithms/DependencyGraphTest.kt" />
@@ -167,7 +197,12 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_16_3SumClosestKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_16_3SumClosestKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_17_LetterCombinationsOfAPhoneNumberKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_17_LetterCombinationsOfAPhoneNumberKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt" />
       </list>
     </option>
   </component>
@@ -308,35 +343,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._16_3SumClosestKtTest.one">
+  <component name="RunManager" selected="JUnit._17_LetterCombinationsOfAPhoneNumberKtTest.one">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="_14_LongestCommonPrefixKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._14_LongestCommonPrefixKtTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="_15_3SumKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
@@ -430,6 +442,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="_17_LetterCombinationsOfAPhoneNumberKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._17_LetterCombinationsOfAPhoneNumberKtTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -469,19 +504,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._14_LongestCommonPrefixKtTest" />
       <item itemvalue="JUnit._15_3SumKtTest.one" />
       <item itemvalue="JUnit._15_3SumKtTest.two" />
       <item itemvalue="JUnit._15_3SumKtTest" />
       <item itemvalue="JUnit._16_3SumClosestKtTest.one" />
+      <item itemvalue="JUnit._17_LetterCombinationsOfAPhoneNumberKtTest.one" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._17_LetterCombinationsOfAPhoneNumberKtTest.one" />
         <item itemvalue="JUnit._16_3SumClosestKtTest.one" />
         <item itemvalue="JUnit._15_3SumKtTest" />
         <item itemvalue="JUnit._15_3SumKtTest.two" />
         <item itemvalue="JUnit._15_3SumKtTest.one" />
-        <item itemvalue="JUnit._14_LongestCommonPrefixKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -499,21 +534,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 13m 35s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 15m 51s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 16m 17s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 17m 50s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 18m 36s.xml">
-      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 30m 27s.xml">
       <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
@@ -528,6 +548,21 @@
     </history-entry>
     <history-entry file="_15_3SumKtTest - 2018.06.21 at 17h 34m 42s.xml">
       <configuration name="_15_3SumKtTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_16_3SumClosestKtTest_one - 2018.06.21 at 17h 44m 16s.xml">
+      <configuration name="_16_3SumClosestKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_17_LetterCombinationsOfAPhoneNumberKtTest_one - 2018.06.21 at 18h 08m 23s.xml">
+      <configuration name="_17_LetterCombinationsOfAPhoneNumberKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_17_LetterCombinationsOfAPhoneNumberKtTest_one - 2018.06.21 at 18h 09m 56s.xml">
+      <configuration name="_17_LetterCombinationsOfAPhoneNumberKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_17_LetterCombinationsOfAPhoneNumberKtTest_one - 2018.06.21 at 18h 10m 03s.xml">
+      <configuration name="_17_LetterCombinationsOfAPhoneNumberKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_17_LetterCombinationsOfAPhoneNumberKtTest_one - 2018.06.21 at 18h 12m 20s.xml">
+      <configuration name="_17_LetterCombinationsOfAPhoneNumberKtTest.one" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -544,16 +579,16 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972338" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -636,12 +671,31 @@
           <properties />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>15</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="154" />
+      <option name="time" value="158" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>letters[0].map { char -&gt; &quot;PRE&quot; + char }</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>arr[i] - (arr[i - square] + 1)</expression-string>
         <language-id>kotlin</language-id>
@@ -682,35 +736,9 @@
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>i.toInt() * 7</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1086,10 +1114,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_16_3SumClosestKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/16-3SumClosest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_17_LetterCombinationsOfAPhoneNumberKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#23#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="25" column="77" lean-forward="true" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
         </state>
       </provider>
     </entry>
