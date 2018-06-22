@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/14-LongestCommonPrefix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +25,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_14_LongestCommonPrefixKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_14_LongestCommonPrefixKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#23#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="15-3Sum.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_15_3SumKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#23#88#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,9 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/BinarySearchKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/MajorityElementKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/MajorityElement.kt" />
         <option value="$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/BinarySearch.kt" />
@@ -136,6 +158,9 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/14-LongestCommonPrefix.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt" />
       </list>
     </option>
   </component>
@@ -276,35 +301,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._14_LongestCommonPrefixKtTest">
+  <component name="RunManager" selected="JUnit._15_3SumKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="_10_RegularExpressionMatchingKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day1" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day1._10_RegularExpressionMatchingKtTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="_12_IntegerToRomanKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
@@ -318,29 +320,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day2" />
       <option name="MAIN_CLASS_NAME" value="leetcode.day2._12_IntegerToRomanKtTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_13_RomanToIntegerKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._13_RomanToIntegerKtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -375,7 +354,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="_279_PerfectSquaresKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_15_3SumKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -386,9 +365,55 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._279_PerfectSquaresKtTest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._15_3SumKtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_15_3SumKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._15_3SumKtTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_15_3SumKtTest.two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._15_3SumKtTest" />
+      <option name="METHOD_NAME" value="two" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -437,19 +462,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
-      <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
-      <item itemvalue="JUnit._13_RomanToIntegerKtTest" />
       <item itemvalue="JUnit._12_IntegerToRomanKtTest" />
       <item itemvalue="JUnit._14_LongestCommonPrefixKtTest" />
+      <item itemvalue="JUnit._15_3SumKtTest.one" />
+      <item itemvalue="JUnit._15_3SumKtTest.two" />
+      <item itemvalue="JUnit._15_3SumKtTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._15_3SumKtTest" />
+        <item itemvalue="JUnit._15_3SumKtTest.two" />
+        <item itemvalue="JUnit._15_3SumKtTest.one" />
         <item itemvalue="JUnit._14_LongestCommonPrefixKtTest" />
         <item itemvalue="JUnit._12_IntegerToRomanKtTest" />
-        <item itemvalue="JUnit._13_RomanToIntegerKtTest" />
-        <item itemvalue="JUnit._10_RegularExpressionMatchingKtTest" />
-        <item itemvalue="JUnit._279_PerfectSquaresKtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -467,35 +492,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 12h 35m 20s.xml">
-      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 09m 36s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 12h 35m 58s.xml">
-      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 12m 49s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 12h 36m 45s.xml">
-      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 13m 35s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 12h 37m 04s.xml">
-      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 15m 51s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_10_RegularExpressionMatchingKtTest - 2018.06.21 at 12h 37m 46s.xml">
-      <configuration name="_10_RegularExpressionMatchingKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 16m 17s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_13_RomanToIntegerKtTest - 2018.06.21 at 12h 56m 27s.xml">
-      <configuration name="_13_RomanToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 17m 50s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_13_RomanToIntegerKtTest - 2018.06.21 at 13h 03m 22s.xml">
-      <configuration name="_13_RomanToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 18m 36s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_13_RomanToIntegerKtTest - 2018.06.21 at 13h 04m 27s.xml">
-      <configuration name="_13_RomanToIntegerKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_one - 2018.06.21 at 17h 30m 27s.xml">
+      <configuration name="_15_3SumKtTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12_IntegerToRomanKtTest - 2018.06.21 at 13h 12m 14s.xml">
-      <configuration name="_12_IntegerToRomanKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_two - 2018.06.21 at 17h 30m 33s.xml">
+      <configuration name="_15_3SumKtTest.two" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_12_IntegerToRomanKtTest - 2018.06.21 at 13h 12m 46s.xml">
-      <configuration name="_12_IntegerToRomanKtTest" configurationId="JUnit" />
+    <history-entry file="_15_3SumKtTest_two - 2018.06.21 at 17h 30m 52s.xml">
+      <configuration name="_15_3SumKtTest.two" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -511,11 +536,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -658,20 +683,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/QuickSorterTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/random/algorithms/MergeSortKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week3/MaximumNumberOfPrizesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1041,6 +1052,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/14-LongestCommonPrefix.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1048,10 +1069,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_14_LongestCommonPrefixKtTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
