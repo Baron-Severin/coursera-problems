@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,11 +16,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19-RemoveTheNthFromTheEnd.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="19-RemoveTheNthFromTheEnd.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="405">
+              <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20-ValidParentheses.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="502" column="9" selection-start-line="502" selection-start-column="9" selection-end-line="502" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_20_ValidParenthesesKtTest.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#23#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,8 +58,8 @@
       <file leaf-file-name="_19_RemoveTheNthFromTheEndKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="-3">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#23#88#0" expanded="true" />
               </folding>
@@ -89,9 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/leetcode/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/4-MedianOfTwoSortedArrays.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/SolutionTest.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/_5_LongestPalindromicSubstringKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/_5_LongestPalindromicSubstringKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/5-LongestPalindromicSubstring.kt" />
@@ -140,6 +167,9 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt" />
       </list>
     </option>
   </component>
@@ -280,35 +310,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._19_RemoveTheNthFromTheEndKtTest">
+  <component name="RunManager" selected="JUnit._20_ValidParenthesesKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="_17_LetterCombinationsOfAPhoneNumberKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day2" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day2._17_LetterCombinationsOfAPhoneNumberKtTest" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="_19_RemoveTheNthFromTheEndKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
@@ -402,6 +409,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="_20_ValidParenthesesKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day2" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day2._20_ValidParenthesesKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -441,19 +471,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._17_LetterCombinationsOfAPhoneNumberKtTest.one" />
       <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest.one" />
       <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest.two" />
       <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest" />
       <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest.three" />
+      <item itemvalue="JUnit._20_ValidParenthesesKtTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._20_ValidParenthesesKtTest" />
         <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest" />
         <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest.three" />
         <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest.two" />
         <item itemvalue="JUnit._19_RemoveTheNthFromTheEndKtTest.one" />
-        <item itemvalue="JUnit._17_LetterCombinationsOfAPhoneNumberKtTest.one" />
       </list>
     </recent_temporary>
   </component>
@@ -471,18 +501,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_19_RemoveTheNthFromTheEndKtTest - 2018.06.21 at 22h 06m 07s.xml">
-      <configuration name="_19_RemoveTheNthFromTheEndKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_19_RemoveTheNthFromTheEndKtTest - 2018.06.21 at 22h 06m 52s.xml">
-      <configuration name="_19_RemoveTheNthFromTheEndKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_19_RemoveTheNthFromTheEndKtTest - 2018.06.21 at 22h 07m 36s.xml">
-      <configuration name="_19_RemoveTheNthFromTheEndKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_19_RemoveTheNthFromTheEndKtTest - 2018.06.21 at 22h 07m 51s.xml">
-      <configuration name="_19_RemoveTheNthFromTheEndKtTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_19_RemoveTheNthFromTheEndKtTest - 2018.06.21 at 22h 09m 14s.xml">
       <configuration name="_19_RemoveTheNthFromTheEndKtTest" configurationId="JUnit" />
     </history-entry>
@@ -501,6 +519,18 @@
     <history-entry file="_19_RemoveTheNthFromTheEndKtTest_three - 2018.06.21 at 22h 14m 32s.xml">
       <configuration name="_19_RemoveTheNthFromTheEndKtTest.three" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="_19_RemoveTheNthFromTheEndKtTest_three - 2018.06.21 at 22h 15m 47s.xml">
+      <configuration name="_19_RemoveTheNthFromTheEndKtTest.three" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_19_RemoveTheNthFromTheEndKtTest_three - 2018.06.21 at 22h 16m 12s.xml">
+      <configuration name="_19_RemoveTheNthFromTheEndKtTest.three" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_19_RemoveTheNthFromTheEndKtTest_three - 2018.06.21 at 22h 16m 17s.xml">
+      <configuration name="_19_RemoveTheNthFromTheEndKtTest.three" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_19_RemoveTheNthFromTheEndKtTest - 2018.06.21 at 22h 16m 24s.xml">
+      <configuration name="_19_RemoveTheNthFromTheEndKtTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1422" height="797" extended-state="0" />
@@ -515,11 +545,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -616,12 +646,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt</url>
-          <line>19</line>
+          <line>16</line>
           <properties />
-          <option name="timeStamp" value="163" />
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="164" />
+      <option name="time" value="165" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -674,38 +704,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/algorithmic/toolbox/week4/NumberOfInversionsKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/algorithmic/toolbox/week4/NumberOfInversions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="501" column="16" selection-start-line="501" selection-start-column="16" selection-end-line="501" selection-end-column="16" />
-          <folding>
-            <element signature="e#16179#16180#0" expanded="true" />
-            <element signature="e#16206#16207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
-          <caret line="117" column="31" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/random/algorithms/DependencyGraph.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1071,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="-3">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#23#88#0" expanded="true" />
           </folding>
@@ -1081,8 +1079,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="405">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="85" column="41" lean-forward="true" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+          <folding>
+            <element signature="e#6490#6491#0" expanded="true" />
+            <element signature="e#6531#6532#0" expanded="true" />
+            <element signature="e#16179#16180#0" expanded="true" />
+            <element signature="e#16206#16207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="502" column="9" selection-start-line="502" selection-start-column="9" selection-end-line="502" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#23#117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
