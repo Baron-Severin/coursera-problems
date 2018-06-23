@@ -1,4 +1,4 @@
-package leetcode.todo
+package leetcode.day4
 
 import leetcode.day2.ListNode
 
@@ -23,4 +23,19 @@ You may not alter the values in the list's nodes, only nodes itself may be chang
  */
 fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
 return null
+}
+
+
+fun reverseGroup(before: ListNode?, start: ListNode?, after: ListNode?): ListNode? {
+  var prev = start
+  var current = start?.next
+  start?.next = before
+
+  while (current != after) {
+    val next = current?.next
+    current?.next = prev
+    prev = current
+    current = next
+  }
+  return prev
 }
