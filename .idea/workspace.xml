@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/leetcode/day3/30-SubstringWithConcatenationOfAllWords.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day3/_30_SubstringWithConcatenationOfAllWordsKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/day3/30-SubstringWithConcatenationOfAllWords.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day3/30-SubstringWithConcatenationOfAllWords.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/leetcode/day3/_30_SubstringWithConcatenationOfAllWordsKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/leetcode/day3/_30_SubstringWithConcatenationOfAllWordsKtTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="30-SubstringWithConcatenationOfAllWords.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/30-SubstringWithConcatenationOfAllWords.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="159">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -37,10 +36,10 @@
       <file leaf-file-name="_30_SubstringWithConcatenationOfAllWordsKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_30_SubstringWithConcatenationOfAllWordsKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="235">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#23#88#0" expanded="true" />
+                <element signature="e#23#155#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,6 +256,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="collect&#9;FILE&#9;jar:///Users/erikrudie/Library/Application Support/IdeaIC2018.1/Kotlin/kotlinc/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Collections.kt" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -304,14 +304,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.one">
+  <component name="RunManager" selected="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="_18_4SumKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -322,78 +322,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._18_4SumKtTest" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_21_MergeTwoSortedListsKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._21_MergeTwoSortedListsKtTest" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_22_GenerateParenthesesKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._22_GenerateParenthesesKtTest" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_22_GenerateParenthesesKtTest.two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._22_GenerateParenthesesKtTest" />
-      <option name="METHOD_NAME" value="two" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -416,6 +347,75 @@
       <option name="PACKAGE_NAME" value="leetcode.day3" />
       <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
       <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day3" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
+      <option name="METHOD_NAME" value="six" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.speed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day3" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
+      <option name="METHOD_NAME" value="speed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day3" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
+      <option name="METHOD_NAME" value="three" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -465,19 +465,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._18_4SumKtTest.one" />
-      <item itemvalue="JUnit._21_MergeTwoSortedListsKtTest.one" />
-      <item itemvalue="JUnit._22_GenerateParenthesesKtTest.one" />
-      <item itemvalue="JUnit._22_GenerateParenthesesKtTest.two" />
       <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.one" />
+      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest" />
+      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.speed" />
+      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.three" />
+      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.six" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest" />
+        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.six" />
+        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.three" />
+        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.speed" />
         <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.one" />
-        <item itemvalue="JUnit._22_GenerateParenthesesKtTest.one" />
-        <item itemvalue="JUnit._22_GenerateParenthesesKtTest.two" />
-        <item itemvalue="JUnit._21_MergeTwoSortedListsKtTest.one" />
-        <item itemvalue="JUnit._18_4SumKtTest.one" />
       </list>
     </recent_temporary>
   </component>
@@ -495,35 +495,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 31m 13s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_speed - 2018.06.22 at 19h 51m 56s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.speed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 31m 33s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_three - 2018.06.22 at 19h 57m 19s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 32m 02s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_three - 2018.06.22 at 20h 00m 31s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 32m 07s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_three - 2018.06.22 at 20h 05m 47s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 33m 04s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_three - 2018.06.22 at 20h 06m 09s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 33m 13s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest - 2018.06.22 at 20h 06m 15s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 34m 42s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest - 2018.06.22 at 20h 08m 22s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 34m 59s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 09m 11s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 35m 18s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 09m 37s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_one - 2018.06.22 at 15h 36m 01s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 16m 44s.xml">
+      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -539,7 +539,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -549,7 +549,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972338" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -650,81 +650,69 @@
           <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/leetcode/day3/30-SubstringWithConcatenationOfAllWords.kt</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="187" />
+      <option name="time" value="207" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>generateParenthesis(2)</expression-string>
+        <expression-string>&quot;ba&quot;.hashCode()</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import com.sun.codemodel.internal.JOp.shl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>('b' - 'a') shl 1</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import com.sun.codemodel.internal.JOp.shl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>shl ('b' - 'a')</expression-string>
+        <language-id>kotlin</language-id>
+        <custom-info>import com.sun.codemodel.internal.JOp.shl</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>('c' - 'a')</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>generateParenthesis(2).toSet()</expression-string>
+        <expression-string>('b' - 'a')</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>generateParenthesis(1)</expression-string>
+        <expression-string>('a' - 'a')</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(1 shl ('b' - 'a')) or (1 shl ('c' - 'a'))</expression-string>
+        <expression-string>pattern.format(fast.toString())</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(1 shl ('b' - 'a')) and (1 shl ('c' - 'a'))</expression-string>
+        <expression-string>i + wordLen</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>1 shl ('b' - 'a')</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>1 shl ('g' - 'a')</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>1 shl ('f' - 'a')</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>1 shl ('e' - 'a')</expression-string>
+        <expression-string>this[i+1]</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/8-StringToInteger.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/9-PalindromeNumber.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day1/_11_ContainerWithMostWaterKtTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day1/11-ContainerWithMostWater.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -771,13 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
         </state>
       </provider>
     </entry>
@@ -879,6 +860,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#23#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,13 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="502" column="9" selection-start-line="502" selection-start-column="9" selection-end-line="502" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1065,20 +1042,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="182" column="15" selection-start-line="182" selection-start-column="15" selection-end-line="182" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Strings.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1162" column="24" selection-start-line="1162" selection-start-column="24" selection-end-line="1162" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Array.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_30_SubstringWithConcatenationOfAllWordsKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="235">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <element signature="e#23#88#0" expanded="true" />
+            <element signature="e#23#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/30-SubstringWithConcatenationOfAllWords.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="159">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
