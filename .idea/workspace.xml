@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/todo/_25_ReverseNodesInKGroupKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/leetcode/todo/25-ReverseNodesInKGroup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +18,17 @@
       <file leaf-file-name="25-ReverseNodesInKGroup.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="173">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19-RemoveTheNthFromTheEnd.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -30,8 +36,8 @@
       <file leaf-file-name="_25_ReverseNodesInKGroupKtTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="341">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#23#117#0" expanded="true" />
               </folding>
@@ -106,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/17-LetterCombinationsOfAPhoneNumber.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_19_RemoveTheNthFromTheEndKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/20-ValidParentheses.kt" />
@@ -142,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/day4/_24_SwapNodesInPairsKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day4/24-SwapNodesInPairs.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.java" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.kt" />
       </list>
@@ -264,83 +270,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._25_ReverseNodesInKGroupKtTest.two">
+  <component name="RunManager" selected="JUnit._25_ReverseNodesInKGroupKtTest.five">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="_24_SwapNodesInPairsKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day4" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day4._24_SwapNodesInPairsKtTest" />
-      <option name="METHOD_NAME" value="one" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_24_SwapNodesInPairsKtTest.swapPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day4" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day4._24_SwapNodesInPairsKtTest" />
-      <option name="METHOD_NAME" value="swapPairs" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_24_SwapNodesInPairsKtTest.two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day4" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day4._24_SwapNodesInPairsKtTest" />
-      <option name="METHOD_NAME" value="two" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_25_ReverseNodesInKGroupKtTest.reverseGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_25_ReverseNodesInKGroupKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
         <pattern>
@@ -352,7 +289,76 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.day4" />
       <option name="MAIN_CLASS_NAME" value="leetcode.day4._25_ReverseNodesInKGroupKtTest" />
-      <option name="METHOD_NAME" value="reverseGroup" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_25_ReverseNodesInKGroupKtTest.five" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day4" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day4._25_ReverseNodesInKGroupKtTest" />
+      <option name="METHOD_NAME" value="five" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_25_ReverseNodesInKGroupKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day4" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day4._25_ReverseNodesInKGroupKtTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_25_ReverseNodesInKGroupKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day4" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day4._25_ReverseNodesInKGroupKtTest" />
+      <option name="METHOD_NAME" value="three" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -425,19 +431,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.swapPairs" />
-      <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.one" />
-      <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.two" />
-      <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.reverseGroup" />
       <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.two" />
+      <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.three" />
+      <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.one" />
+      <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest" />
+      <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.five" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.five" />
+        <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest" />
+        <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.three" />
         <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.two" />
-        <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.reverseGroup" />
-        <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.two" />
-        <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.one" />
-        <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.swapPairs" />
+        <item itemvalue="JUnit._25_ReverseNodesInKGroupKtTest.one" />
       </list>
     </recent_temporary>
   </component>
@@ -455,35 +461,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 11m 13s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_two - 2018.06.23 at 15h 15m 03s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.two" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 12m 12s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_two - 2018.06.23 at 15h 18m 09s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.two" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 13m 58s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_two - 2018.06.23 at 15h 20m 02s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.two" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 15m 51s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_two - 2018.06.23 at 15h 20m 52s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.two" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 16m 41s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_three - 2018.06.23 at 15h 21m 44s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 17m 24s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_three - 2018.06.23 at 15h 23m 36s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_24_SwapNodesInPairsKtTest_two - 2018.06.23 at 12h 17m 32s.xml">
-      <configuration name="_24_SwapNodesInPairsKtTest.two" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest_three - 2018.06.23 at 15h 23m 56s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest.three" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_25_ReverseNodesInKGroupKtTest_reverseGroup - 2018.06.23 at 14h 08m 12s.xml">
-      <configuration name="_25_ReverseNodesInKGroupKtTest.reverseGroup" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest - 2018.06.23 at 15h 24m 03s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_25_ReverseNodesInKGroupKtTest_reverseGroup - 2018.06.23 at 14h 10m 44s.xml">
-      <configuration name="_25_ReverseNodesInKGroupKtTest.reverseGroup" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest - 2018.06.23 at 15h 26m 17s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="_25_ReverseNodesInKGroupKtTest_reverseGroup - 2018.06.23 at 14h 12m 34s.xml">
-      <configuration name="_25_ReverseNodesInKGroupKtTest.reverseGroup" configurationId="JUnit" />
+    <history-entry file="_25_ReverseNodesInKGroupKtTest - 2018.06.23 at 15h 26m 35s.xml">
+      <configuration name="_25_ReverseNodesInKGroupKtTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -499,7 +505,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -509,7 +515,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39972338" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -622,14 +628,8 @@
           <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="215" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="216" />
+      <option name="time" value="233" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -859,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/_20_ValidParenthesesKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1051,13 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1065,10 +1051,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day2/19-RemoveTheNthFromTheEnd.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/25-ReverseNodesInKGroup.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_25_ReverseNodesInKGroupKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="341">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#23#117#0" expanded="true" />
           </folding>

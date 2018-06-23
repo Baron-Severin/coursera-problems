@@ -22,20 +22,44 @@ Only constant extra memory is allowed.
 You may not alter the values in the list's nodes, only nodes itself may be changed.
  */
 fun reverseKGroup(head: ListNode?, k: Int): ListNode? {
-return null
+  if (k < 2) return head
+  var newHead: ListNode? = null
+  var prev: ListNode? = null
+  var first = head
+  var last = head
+  var ahead : ListNode?
+  while (first != null) {
+    for (i in 1 until k) {
+      last = last?.next
+    }
+    if (newHead == null) newHead = last ?: first
+    ahead = last?.next
+    if (reverseGroup(first, last)) {
+      prev?.next = last
+      prev = first
+      first.next = ahead
+      first = ahead
+      last = ahead
+    } else {
+      prev?.next = first
+      break
+    }
+  }
+  return newHead
 }
 
-
-fun reverseGroup(before: ListNode?, start: ListNode?, after: ListNode?): ListNode? {
-  var prev = start
-  var current = start?.next
-  start?.next = before
-
-  while (current != after) {
-    val next = current?.next
+fun reverseGroup(first: ListNode?, last: ListNode?): Boolean {
+  if (last == null) return false
+  var prev = first
+  var current = first?.next
+  while (current != last) {
+    val temp = current?.next
     current?.next = prev
     prev = current
-    current = next
+    current = temp
   }
-  return prev
+  last.next = prev
+  return true
 }
+
+
