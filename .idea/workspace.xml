@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfb43dc7-253b-4e60-b71d-2f3c34910cb0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/leetcode/todo/_23_MergeKLinkedListsKtTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/leetcode/day4/_24_SwapNodesInPairsKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/todo/_23_MergeKLinkedListsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/todo/_23_MergeKLinkedListsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/todo/_23_MergeKLinkedListsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/todo/_24_SwapNodesInPairsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/coursera-problems/leetcode/todo/_23_MergeKLinkedListsKtTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/todo/24-SwapNodesInPairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day4/24-SwapNodesInPairs.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,43 +20,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="23-MergeKLinkedLists.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt">
+      <file leaf-file-name="24-SwapNodesInPairs.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/24-SwapNodesInPairs.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="42">
+              <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_23_MergeKLinkedListsKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/todo/_23_MergeKLinkedListsKtTest.kt">
+      <file leaf-file-name="_24_SwapNodesInPairsKtTest.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_24_SwapNodesInPairsKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#23#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="21-MergeTwoSortedLists.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/21-MergeTwoSortedLists.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_21_MergeTwoSortedListsKtTest.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/leetcode/day3/_21_MergeTwoSortedListsKtTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#23#118#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,11 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/leetcode/day1/10-RegularExpressionMatching.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_13_RomanToIntegerKtTest.java" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_13_RomanToIntegerKtTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/leetcode/day2/13-RomanToInteger.kt" />
-        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_12_IntegerToRomanKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/12-IntegerToRoman.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/14-LongestCommonPrefix.kt" />
@@ -164,6 +141,11 @@
         <option value="$PROJECT_DIR$/src/test/leetcode/todo/_23_MergeKLinkedListsKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/todo/_23_MergeKLinkedListsKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day4/23-MergeKLinkedLists.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day4/_23_MergeKLinkedListsKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day4/_24_SwapNodesInPairsKtTest.java" />
+        <option value="$PROJECT_DIR$/src/test/leetcode/day4/_24_SwapNodesInPairsKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day4/24-SwapNodesInPairs.kt" />
       </list>
     </option>
   </component>
@@ -205,7 +187,7 @@
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
@@ -218,30 +200,6 @@
               <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-problems" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-problems" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,11 +226,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="leetcode.day4" />
       <recent name="leetcode.todo" />
       <recent name="leetcode.day3" />
       <recent name="leetcode.day2" />
       <recent name="random.algorithms" />
-      <recent name="leetcode.day1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="leetcode" />
@@ -281,6 +239,7 @@
       <recent name="week1" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="leetcode.day4" />
       <recent name="leetcode.day2" />
       <recent name="leetcode.day1" />
     </key>
@@ -288,6 +247,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/leetcode/day4" />
       <recent name="$PROJECT_DIR$/src/main/leetcode/todo" />
       <recent name="$PROJECT_DIR$/src/main/leetcode/day2" />
       <recent name="$PROJECT_DIR$/src/main/leetcode/day1" />
@@ -306,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit._23_MergeKLinkedListsKtTest.one">
+  <component name="RunManager" selected="JUnit._24_SwapNodesInPairsKtTest.two">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -336,6 +296,75 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="_24_SwapNodesInPairsKtTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day4" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day4._24_SwapNodesInPairsKtTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_24_SwapNodesInPairsKtTest.swapPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day4" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day4._24_SwapNodesInPairsKtTest" />
+      <option name="METHOD_NAME" value="swapPairs" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="_24_SwapNodesInPairsKtTest.two" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coursera-problems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode.day4" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.day4._24_SwapNodesInPairsKtTest" />
+      <option name="METHOD_NAME" value="two" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coursera-problems" />
       <extension name="coverage">
@@ -350,75 +379,6 @@
       <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
-      <option name="METHOD_NAME" value="six" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.speed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
-      <option name="METHOD_NAME" value="speed" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.three" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coursera-problems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.day3" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.day3._30_SubstringWithConcatenationOfAllWordsKtTest" />
-      <option name="METHOD_NAME" value="three" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -468,18 +428,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest" />
-      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.speed" />
-      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.three" />
-      <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.six" />
       <item itemvalue="JUnit._23_MergeKLinkedListsKtTest.one" />
+      <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.swapPairs" />
+      <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.one" />
+      <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.two" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.two" />
+        <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.one" />
+        <item itemvalue="JUnit._24_SwapNodesInPairsKtTest.swapPairs" />
         <item itemvalue="JUnit._23_MergeKLinkedListsKtTest.one" />
         <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest" />
-        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.six" />
-        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.three" />
-        <item itemvalue="JUnit._30_SubstringWithConcatenationOfAllWordsKtTest.speed" />
       </list>
     </recent_temporary>
   </component>
@@ -497,27 +457,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest - 2018.06.22 at 20h 08m 22s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 09m 11s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 09m 37s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 16m 44s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest_six - 2018.06.22 at 20h 16m 48s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest.six" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_30_SubstringWithConcatenationOfAllWordsKtTest - 2018.06.22 at 20h 16m 54s.xml">
-      <configuration name="_30_SubstringWithConcatenationOfAllWordsKtTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="_23_MergeKLinkedListsKtTest_one - 2018.06.23 at 11h 49m 31s.xml">
-      <configuration name="_23_MergeKLinkedListsKtTest.one" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="_23_MergeKLinkedListsKtTest_one - 2018.06.23 at 11h 50m 21s.xml">
       <configuration name="_23_MergeKLinkedListsKtTest.one" configurationId="JUnit" />
     </history-entry>
@@ -526,6 +465,27 @@
     </history-entry>
     <history-entry file="_23_MergeKLinkedListsKtTest_one - 2018.06.23 at 11h 53m 12s.xml">
       <configuration name="_23_MergeKLinkedListsKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_23_MergeKLinkedListsKtTest_one - 2018.06.23 at 11h 54m 07s.xml">
+      <configuration name="_23_MergeKLinkedListsKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_23_MergeKLinkedListsKtTest_one - 2018.06.23 at 11h 55m 04s.xml">
+      <configuration name="_23_MergeKLinkedListsKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_24_SwapNodesInPairsKtTest_swapPairs - 2018.06.23 at 12h 10m 09s.xml">
+      <configuration name="_24_SwapNodesInPairsKtTest.swapPairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_24_SwapNodesInPairsKtTest_swapPairs - 2018.06.23 at 12h 10m 25s.xml">
+      <configuration name="_24_SwapNodesInPairsKtTest.swapPairs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 11m 13s.xml">
+      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 12m 12s.xml">
+      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="_24_SwapNodesInPairsKtTest_one - 2018.06.23 at 12h 13m 58s.xml">
+      <configuration name="_24_SwapNodesInPairsKtTest.one" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -659,19 +619,22 @@
           <option name="timeStamp" value="206" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt</url>
-          <line>31</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="210" />
+          <url>file://$PROJECT_DIR$/src/main/leetcode/day4/24-SwapNodesInPairs.kt</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="213" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="211" />
+      <option name="time" value="214" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>head</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>acc?.`val` ?: Int.MAX_VALUE</expression-string>
         <language-id>kotlin</language-id>
@@ -715,21 +678,9 @@
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>pattern.format(fast.toString())</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1491" selection-start-line="1491" selection-end-line="1491" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day2/322-CoinChange.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1066,10 +1017,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/24-SwapNodesInPairs.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_23_MergeKLinkedListsKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#23#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/23-MergeKLinkedLists.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1090,20 +1051,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/leetcode/todo/_23_MergeKLinkedListsKtTest.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_24_SwapNodesInPairsKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#23#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/23-MergeKLinkedLists.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/24-SwapNodesInPairs.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="42">
+          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
         </state>
       </provider>
     </entry>
