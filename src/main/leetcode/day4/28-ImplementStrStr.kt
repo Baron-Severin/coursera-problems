@@ -1,4 +1,4 @@
-package leetcode.todo
+package leetcode.day4
 
 /**
  * EASY
@@ -22,5 +22,7 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
  */
 fun strStr(haystack: String, needle: String): Int {
-return 0
+  if (needle.isEmpty()) return 0
+  return haystack.indexOf(needle)
+
 }

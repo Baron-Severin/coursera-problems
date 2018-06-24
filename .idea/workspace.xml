@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/coursera-problems/META-INF/coursera-problems.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/coursera-problems/leetcode/todo/_26_RemoveDuplicatesFromSortedArrayKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/leetcode/todo/26-RemoveDuplicatesFromSortedArray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day4/26-RemoveDuplicatesFromSortedArray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/leetcode/todo/27-RemoveElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/leetcode/day4/27-RemoveElement.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_26_RemoveDuplicatesFromSortedArrayKtTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_26_RemoveDuplicatesFromSortedArrayKtTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_26_RemoveDuplicatesFromSortedArrayKtTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27-RemoveElement.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/27-RemoveElement.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -90,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/leetcode/day2/_15_3SumKtTest.kt" />
         <option value="$PROJECT_DIR$/src/main/leetcode/day2/15-3Sum.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_16_3SumClosestKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day2/_16_3SumClosestKtTest.kt" />
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/main/leetcode/day4/26-RemoveDuplicatesFromSortedArray.kt" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day4/_26_RemoveDuplicatesFromSortedArrayKtTest.java" />
         <option value="$PROJECT_DIR$/src/test/leetcode/day4/_26_RemoveDuplicatesFromSortedArrayKtTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/leetcode/day4/27-RemoveElement.kt" />
       </list>
     </option>
   </component>
@@ -495,11 +505,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32918397" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32918397" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918397" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35372713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35372713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -879,13 +889,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/leetcode/todo/27-RemoveElement.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/leetcode/day3/22-GenerateParentheses.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1060,8 +1063,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/leetcode/day4/_26_RemoveDuplicatesFromSortedArrayKtTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/leetcode/day4/27-RemoveElement.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
         </state>
       </provider>
     </entry>
