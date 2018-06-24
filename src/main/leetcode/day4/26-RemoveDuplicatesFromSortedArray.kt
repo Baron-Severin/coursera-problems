@@ -40,7 +40,7 @@ print(nums[i]);
  */
 
 fun removeDuplicates(nums: IntArray): Int {
-
-
-  return 0
+  val set = nums.toSet()
+  set.forEachIndexed { i, int -> nums[i] = int }
+  return set.size
 }
