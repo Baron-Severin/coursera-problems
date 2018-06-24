@@ -10,7 +10,7 @@ fun divide(dividend: Int, divisor: Int): Int {
 
   var count = 0L
   var build = divisor
-  while (build < dividend) {
+  while (build <= dividend) {
     build += divisor
     count++
   }

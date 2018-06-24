@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 internal class _29_DivideTwoIntegersKtTest {
 
   @Test fun one() {
-    assertEquals(-2147483647, divide(-2147483648, 1))
+    assertEquals(3, divide(10, 3))
   }
 
   @Test fun two() {
