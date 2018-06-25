@@ -1,5 +1,6 @@
 package leetcode.day5
 
+// Incomplete
 fun search(nums: IntArray, target: Int): Int {
   val pivot = findPivot(nums, target)
   return searchInPivoted(nums, target, pivot)
