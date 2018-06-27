@@ -5,18 +5,6 @@ import kotlin.test.assertEquals
 
 internal class _77_CombinationsKtTest {
 
-  @Test fun one() {
-    val input = listOf(1,2,3)
-    val more = 2
-    val expected = listOf(
-        listOf(1,2),
-        listOf(1,3),
-        listOf(2,3)
-    )
-
-    assertEquals(expected, allCombos(input, more))
-  }
-
   @Test fun two() {
     val n = 3
     val k = 2
@@ -40,5 +28,13 @@ internal class _77_CombinationsKtTest {
       listOf(1,4)
     )
     assertEquals(expected.toSet(), combine(n, k).toSet())
+  }
+
+  @Test fun four() {
+    combine(10, 7)
+  }
+
+  @Test fun five() {
+    combine(13, 10)
   }
 }
