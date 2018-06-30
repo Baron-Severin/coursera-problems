@@ -1,10 +1,14 @@
 package leetcode.day10
 
+// https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
 fun main(vararg args: String) {
   val n = readLine()?.toInt() ?: 0
   val board = Array(n) { Array(n) { false } }
   if (iterate(board)) {
     println("YES")
+    for (i in board) {
+      println(i.map { if (it) "1" else "0" }.joinToString(separator = " "))
+    }
   } else {
     println("NO")
   }
@@ -20,12 +24,12 @@ class Debug(board: Array<Array<Boolean>>) {
 
 fun iterate(board: Array<Array<Boolean>>, lastRow: Int = 0, lastCol: Int = -1): Boolean {
   val queens = board.size
+  if (board.flatMap { it.filter { it } }.count() == queens) return true
   for (i in lastRow..board.lastIndex) {
     for (j in 0..board.lastIndex) {
-      Debug(board)
       if (i == lastRow && j <= lastCol) continue
-      if (!isAttacked(i, j, board)) board[i][j] = true
-      if (board.flatMap { it.filter { true } }.count() == queens) return true
+      if (isAttacked(i, j, board)) continue
+      board[i][j] = true
       if (iterate(board, i, j)) return true
       board[i][j] = false
     }
