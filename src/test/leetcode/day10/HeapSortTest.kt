@@ -6,6 +6,17 @@ import kotlin.test.assertEquals
 
 internal class HeapSortTest {
 
+  @Nested class HeapSort {
+
+    @Test fun one() {
+      val input = arrayOf(5,6,3,4,1,2)
+      val expected = listOf(1,2,3,4,5,6)
+      heapSort(input)
+      assertEquals(expected, input.toList())
+    }
+
+  }
+
   @Nested class MinHeap {
 
     @Test fun one() {

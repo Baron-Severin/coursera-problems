@@ -1,18 +1,32 @@
 package leetcode.day10
 
-class MinHeap<T: Comparable<T>> {
+fun <T : Comparable<T>> heapSort(arr: Array<T>) {
+  val heap = MinHeap<T>()
+  heap.addAll(arr)
+  for (i in 0 until arr.size) {
+    heap.poll()?.let { arr[i] = it }
+  }
+}
+
+class MinHeap<T : Comparable<T>> {
   var arr = Array<Any?>(10) { null }
   var size = 0
-  val lastIndex
+  private val lastIndex
     get() = size - 1
-  val last
-    get() = arr[lastIndex]
 
   fun add(t: T) {
     size++
     ensureCapacity()
     arr[lastIndex] = t
     heapifyUp(lastIndex)
+  }
+
+  fun addAll(col: Collection<T>) {
+    col.forEach { add(it) }
+  }
+
+  fun addAll(arr: Array<T>) {
+    arr.forEach { add(it) }
   }
 
   fun poll(): T? {
