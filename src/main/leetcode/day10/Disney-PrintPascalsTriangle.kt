@@ -1,24 +1,20 @@
 package leetcode.day10
 
 fun main(vararg args: String) {
-  printPascal(4)
+  buildPascal(4)
 }
 
-fun printPascal(rows:Int) {
-  var row = "1"
-  println(row)
-  for (i in 1..rows) {
-    row = "1${row.createBody()}1"
-    println(row)
+fun buildPascal(n: Int): String {
+  if (n == 0) return ""
+  var triangle = listOf(1)
+  for (i in 1 until n) {
+    triangle = generateTriangle(triangle)
   }
+  return triangle.joinToString(separator = "")
 }
 
-private fun String.createBody(): String {
-  return this.foldIndexed("") { i, acc, char ->
-    var acc = acc
-    if (i < this.lastIndex) {
-      acc += (char - '0') + (this[i + 1] - '0')
-    }
-    acc
-  }
+private fun generateTriangle(s: List<Int>): List<Int> {
+  return (listOf(1) + s.windowed(2, 1, true) { w ->
+    w[0] + (w.elementAtOrNull(1) ?: 0)
+  })
 }
