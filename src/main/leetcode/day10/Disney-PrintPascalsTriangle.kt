@@ -1,10 +1,10 @@
 package leetcode.day10
 
 fun main(vararg args: String) {
-  buildPascal(4)
+  createTriangle(4)
 }
 
-fun buildPascal(n: Int): String {
+fun createTriangle(n: Int): String {
   if (n == 0) return ""
   var triangle = listOf(1)
   for (i in 1 until n) {
