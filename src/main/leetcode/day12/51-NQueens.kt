@@ -14,6 +14,7 @@ package leetcode.day12
 val validCombos = mutableListOf<List<String>>()
 
   fun solveNQueens(n: Int): List<List<String>> {
+    validCombos.clear()
     val board = Array(n) { Array(n) { false } }
     recurse(board)
     return validCombos
@@ -47,10 +48,10 @@ fun isOpen(row: Int, col: Int, board: Array<Array<Boolean>>): Boolean {
     if (onBoard(row + i, col, board) && board[row + i][col]) return false
     if (onBoard(row, col - i, board) && board[row][col - i]) return false
     if (onBoard(row, col + i, board) && board[row][col + i]) return false
-    if (onBoard(row + 1, col + 1, board) && board[row + 1][col + 1]) return false
-    if (onBoard(row + 1, col - 1, board) && board[row + 1][col - 1]) return false
-    if (onBoard(row - 1, col + 1, board) && board[row - 1][col + 1]) return false
-    if (onBoard(row - 1, col - 1, board) && board[row - 1][col - 1]) return false
+    if (onBoard(row + i, col + i, board) && board[row + i][col + i]) return false
+    if (onBoard(row + i, col - i, board) && board[row + i][col - i]) return false
+    if (onBoard(row - i, col + i, board) && board[row - i][col + i]) return false
+    if (onBoard(row - i, col - i, board) && board[row - i][col - i]) return false
   }
   return true
 }
