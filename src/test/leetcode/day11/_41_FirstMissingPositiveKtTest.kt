@@ -29,4 +29,9 @@ internal class _41_FirstMissingPositiveKtTest {
     val input = intArrayOf(1,1)
     assertEquals(2, firstMissingPositive(input))
   }
+
+  @Test fun six() {
+    val input = intArrayOf(1)
+    assertEquals(2, firstMissingPositive(input))
+  }
 }
