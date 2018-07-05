@@ -39,8 +39,28 @@ print(nums[i]);
 
  */
 
+// Linear time, constant space
 fun removeDuplicates(nums: IntArray): Int {
-  val set = nums.toSet()
-  set.forEachIndexed { i, int -> nums[i] = int }
-  return set.size
+  if (nums.isEmpty()) return 0
+  var runner = 0
+  var walker = 0
+  var curr = nums[0]
+  while (runner < nums.lastIndex) {
+    while (runner < nums.lastIndex && nums[runner] == curr) {
+      runner++
+    }
+    if (nums[runner] != curr) {
+      walker++
+      nums[walker] = nums[runner]
+      curr = nums[runner]
+    }
+  }
+  return walker + 1
 }
+
+// Linear time, linear space
+//fun removeDuplicates(nums: IntArray): Int {
+//  val set = nums.toSet()
+//  set.forEachIndexed { i, int -> nums[i] = int }
+//  return set.size
+//}
