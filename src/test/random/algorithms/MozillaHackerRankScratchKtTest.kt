@@ -1,5 +1,6 @@
 package random.algorithms
 
+import leetcode.day17.computeAverages
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 

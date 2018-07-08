@@ -1,4 +1,4 @@
-package random.algorithms
+package leetcode.day17
 
 import java.util.*
 
