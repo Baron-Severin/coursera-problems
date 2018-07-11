@@ -12,7 +12,6 @@ enum class Direction {
     }
   }
 }
-class Solution {
   fun generateMatrix(n: Int): Array<IntArray> {
     val board = Array(n) { IntArray(n) }
     var left = 0
@@ -41,7 +40,6 @@ class Solution {
     }
     return board
   }
-}
 
 fun nextPos(d: Direction, pos: Pair<Int,Int>): Pair<Int, Int> {
   return when (d) {
